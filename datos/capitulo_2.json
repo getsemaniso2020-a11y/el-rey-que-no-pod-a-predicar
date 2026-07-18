@@ -1,0 +1,231 @@
+{
+  "version": 1,
+  "type": "study_export",
+  "scope": "class",
+  "exportedAt": "2026-07-18T12:05:00.000Z",
+  "subjects": [
+    {
+      "id": "el_rey_que_no_podia_predicar",
+      "name": "El Rey Que No Podía Predicar",
+      "icon": "📖",
+      "color": "#b45309",
+      "classes": [
+        {
+          "id": "capitulo_2",
+          "name": "Capítulo 2: Una propuesta... satisfactoria",
+          "data": {
+            "glosario": {
+              "glosario": [
+                { "termino": "Propuesta", "definicion": "Ofrecimiento o trato que se hace a alguien, generalmente con una condición de por medio.", "grupo": "Comunicación" },
+                { "termino": "Audiencia", "definicion": "Conjunto de personas que escuchan un discurso, conferencia o sermón.", "grupo": "Comunicación" },
+                { "termino": "Negociación", "definicion": "Proceso de diálogo para llegar a un acuerdo entre dos o más partes.", "grupo": "Comunicación" }
+              ]
+            },
+            "cuestionario_items": [
+              {
+                "pregunta": "¿Dónde durmió Otho la primera noche que George estuvo en su casa?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) En su habitación",
+                  "B) En el sofá de la sala de estar",
+                  "C) En el granero",
+                  "D) En la cocina"
+                ],
+                "respuesta_correcta": "B) En el sofá de la sala de estar",
+                "justificacion": "Otho tuvo que dormir en el sofá porque George ocupó su habitación.",
+                "cascarita": "No fue en la cocina ni en el granero. A veces los invitados desplazan a los dueños de sus propias camas."
+              },
+              {
+                "pregunta": "Doblar las mantas era una tarea fácil para Otho, y George solo lo ayudaba para ser amable.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "Otho tenía dificultades porque las mantas eran dos veces más grandes que él, y George realmente lo ayudó enseñándole la técnica.",
+                "cascarita": "No era un favor, era una necesidad. Las mantas eran demasiado grandes para un niño."
+              },
+              {
+                "pregunta": "¿Qué le propuso George a Otho a cambio de ser su audiencia?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Pagarle dinero cada semana",
+                  "B) Ayudarlo con las tareas de la granja",
+                  "C) Enseñarle a leer y escribir",
+                  "D) Darle su ropa nueva"
+                ],
+                "respuesta_correcta": "B) Ayudarlo con las tareas de la granja",
+                "justificacion": "George ofreció ayudar a Otho con los pollos a cambio de que Otho fuera su audiencia para practicar la predicación.",
+                "cascarita": "No era dinero, era un intercambio de servicios. Cada uno daba lo que podía."
+              },
+              {
+                "pregunta": "Otho aceptó el trato de George sin hacer ninguna pregunta sobre las condiciones.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "Otho preguntó si tendría que hacer trabajo adicional, mostrando su instinto negociador.",
+                "cascarita": "Otho no era un niño ingenuo. Quería asegurarse de que no lo engañaran."
+              },
+              {
+                "pregunta": "¿Cómo se sentía George cuando estaba a solas con Otho?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Tímido y silencioso",
+                  "B) Divertido e interesante",
+                  "C) Serio y distante",
+                  "D) Enojado y frustrado"
+                ],
+                "respuesta_correcta": "B) Divertido e interesante",
+                "justificacion": "Otho describe a George como un 'hombre divertido' que no tartamudeaba en privado.",
+                "cascarita": "George era diferente en público que en privado. La confianza lo transformaba."
+              },
+              {
+                "pregunta": "George tartamudeaba tanto en público como en privado sin ninguna diferencia.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "Otho notó que George no tartamudeaba cuando estaban solos, pero sí cuando estaba en la iglesia o frente a extraños.",
+                "cascarita": "El tartamudeo de George era situacional, no permanente. La ansiedad era su principal enemigo."
+              },
+              {
+                "pregunta": "¿Qué palabra nueva aprendió Otho en este capítulo?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Negociación",
+                  "B) Propuesta",
+                  "C) Audiencia",
+                  "D) Acuerdo"
+                ],
+                "respuesta_correcta": "B) Propuesta",
+                "justificacion": "Otho no conocía la palabra 'propuesta' y George tuvo que explicarle que era un trato o acuerdo.",
+                "cascarita": "No era 'audiencia' ni 'negociación'. La palabra clave era 'propuesta', un concepto nuevo para él."
+              },
+              {
+                "pregunta": "Otho sabía exactamente qué significaba la palabra 'propuesta' cuando George se la mencionó.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "Otho nunca había escuchado esa palabra antes y tuvo que preguntar qué significaba.",
+                "cascarita": "A veces los adultos usan palabras que los niños no entienden. Otho no tuvo miedo de preguntar."
+              },
+              {
+                "pregunta": "¿Qué pregunta clave hizo Otho para asegurarse de que el trato no le diera más trabajo?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) ¿Tendré que alimentar a los caballos también?",
+                  "B) ¿Tendré que salir a buscar madera mientras practicas?",
+                  "C) ¿Tendré que limpiar el granero?",
+                  "D) ¿Tendré que cocinar para ti?"
+                ],
+                "respuesta_correcta": "B) ¿Tendré que salir a buscar madera mientras practicas?",
+                "justificacion": "Otho mostró su instinto negociador preguntando si tendría que hacer más trabajo.",
+                "cascarita": "Otho no quería más trabajo, solo escuchar. Su pregunta fue muy astuta."
+              },
+              {
+                "pregunta": "George le pidió a Otho que lo llamara 'George' en lugar de 'Sr. King' porque quería ser su amigo.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "George le pidió a Otho que lo llamara por su nombre de pila, George, para tener una relación más cercana.",
+                "cascarita": "La formalidad a veces se interpone en la amistad. George quería romper esa barrera."
+              },
+              {
+                "pregunta": "¿Qué tarea de la granja hizo George con Otho al día siguiente de su llegada?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Ordeñar las vacas",
+                  "B) Alimentar a los pollos y recoger huevos",
+                  "C) Arar el campo",
+                  "D) Cortar leña"
+                ],
+                "respuesta_correcta": "B) Alimentar a los pollos y recoger huevos",
+                "justificacion": "George ayudó a Otho a alimentar a los pollos y recoger los huevos, mostrando interés en aprender.",
+                "cascarita": "No fue arar ni cortar leña. Las tareas de la granja pueden ser variadas, pero los pollos eran lo suyo."
+              },
+              {
+                "pregunta": "Otho pensó que George era un hombre divertido y que no era tan malo que viviera con ellos.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "Otho reflexiona al final del capítulo que quizás no sería tan malo que George viviera con ellos.",
+                "cascarita": "Las primeras impresiones pueden cambiar. Otho pasó de la desconfianza a la aceptación."
+              },
+              {
+                "pregunta": "¿Qué le enseñó George a Otho sobre cómo doblar las mantas?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) A doblarlas en forma de triángulo",
+                  "B) A mantener las esquinas juntas y luego reunirlas",
+                  "C) A enrollarlas como un cilindro",
+                  "D) A doblarlas en cuatro partes"
+                ],
+                "respuesta_correcta": "B) A mantener las esquinas juntas y luego reunirlas",
+                "justificacion": "George enseñó a Otho cómo mantener las esquinas juntas y luego reunirlas para doblar correctamente.",
+                "cascarita": "No era un método complicado, pero necesitaba técnica. George sabía cómo enseñar."
+              },
+              {
+                "pregunta": "George se ofreció a ayudar a Otho con las tareas sin esperar nada a cambio.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "George ofreció ayuda a cambio de que Otho fuera su audiencia para practicar la predicación.",
+                "cascarita": "No era altruismo puro, era un intercambio. Cada uno daba y recibía."
+              },
+              {
+                "pregunta": "¿Cómo describe Otho la habilidad de George para aprender tareas de la granja?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Aprendía muy lentamente",
+                  "B) Asimilaba bastante rápido",
+                  "C) No entendía nada",
+                  "D) Se negaba a aprender"
+                ],
+                "respuesta_correcta": "B) Asimilaba bastante rápido",
+                "justificacion": "Otho admite que George asimilaba bastante rápido y aprendió a alimentar a los pollos en poco tiempo.",
+                "cascarita": "George era un aprendiz rápido. No todo el mundo tiene esa habilidad."
+              },
+              {
+                "pregunta": "George le pidió a Otho que no le contara a nadie sobre su trato porque era un secreto.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "George no le pidió a Otho que mantuviera el trato en secreto; simplemente le hizo la propuesta abiertamente.",
+                "cascarita": "No era un secreto, era un acuerdo. A veces los acuerdos no necesitan ser ocultos."
+              },
+              {
+                "pregunta": "¿Qué creía George que el Señor lo había llamado a ser?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Misionero en el extranjero",
+                  "B) Predicador",
+                  "C) Maestro de la Escuela Sabática",
+                  "D) Cantante de himnos"
+                ],
+                "respuesta_correcta": "B) Predicador",
+                "justificacion": "George creía que el Señor lo había llamado a ser un predicador, y por eso necesitaba practicar.",
+                "cascarita": "No era cantante ni misionero. Su llamado era a predicar, aunque le costara."
+              },
+              {
+                "pregunta": "Otho se sintió halagado cuando George dijo que doblar las mantas era 'un trabajo de dos hombres'.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "Otho se sintió orgulloso de ser considerado para un trabajo de hombres, lo que aumentó su motivación.",
+                "cascarita": "Ser considerado un 'hombre' era un gran cumplido para un niño. Eso cambió su actitud."
+              },
+              {
+                "pregunta": "¿Qué hizo Otho cuando George le dijo que no sabía qué era una propuesta?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Se rió de él",
+                  "B) Le pidió que se lo explicara",
+                  "C) Se fue sin decir nada",
+                  "D) Le dijo que no le importaba"
+                ],
+                "respuesta_correcta": "B) Le pidió que se lo explicara",
+                "justificacion": "Otho no sabía qué significaba 'propuesta' y le pidió a George que se lo explicara.",
+                "cascarita": "Preguntar es una forma de aprender. Otho no tuvo miedo de mostrar que no sabía."
+              },
+              {
+                "pregunta": "Al final del capítulo, Otho pensó que George podría ser un buen amigo y compañero.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "Otho reflexiona que, con George ayudándole y a cambio solo tener que escucharlo, quizás no sería tan malo.",
+                "cascarita": "La convivencia puede ser difícil al principio, pero las buenas relaciones se construyen con el tiempo."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

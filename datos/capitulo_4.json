@@ -1,0 +1,232 @@
+{
+  "version": 1,
+  "type": "study_export",
+  "scope": "class",
+  "exportedAt": "2026-07-18T12:30:00.000Z",
+  "subjects": [
+    {
+      "id": "el_rey_que_no_podia_predicar_cap4",
+      "name": "El Rey Que No Podía Predicar",
+      "icon": "📖",
+      "color": "#b45309",
+      "classes": [
+        {
+          "id": "capitulo_4",
+          "name": "Capítulo 4: Dios dirige la decisión final",
+          "data": {
+            "glosario": {
+              "glosario": [
+                { "termino": "Sermón", "definicion": "Discurso religioso o exhortación moral basada en la Biblia.", "grupo": "Religión" },
+                { "termino": "Predicación hogareña", "definicion": "Ministerio de predicar en los hogares en lugar de en un púlpito.", "grupo": "Ministerio" },
+                { "termino": "Folletos", "definicion": "Publicaciones breves con contenido religioso o informativo.", "grupo": "Literatura" },
+                { "termino": "Tía Huldah", "definicion": "Tía de Otho, conocida por traer bizcochitos y contar historias interesantes.", "grupo": "Personajes" }
+              ]
+            },
+            "cuestionario_items": [
+              {
+                "pregunta": "¿Qué sucedió con las notas de George durante el sermón de prueba frente a los vecinos?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Se las llevó el viento por la ventana abierta",
+                  "B) Se cayeron del púlpito y se desordenaron",
+                  "C) Las rompió accidentalmente al pasar la página",
+                  "D) Se las olvidó en su habitación y no las usó"
+                ],
+                "respuesta_correcta": "B) Se cayeron del púlpito y se desordenaron",
+                "justificacion": "El libro y las notas de George se cayeron al suelo y Otho intentó ayudarlo a recogerlas, pero no se fijó en la numeración.",
+                "cascarita": "No fue el viento ni el olvido. Fue un accidente que desencadenó el nerviosismo de George."
+              },
+              {
+                "pregunta": "George predicó con tanta fluidez durante el sermón de prueba que todos quedaron impresionados con su habilidad.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "George tartamudeó, se confundió con las profecías y perdió el hilo, causando un silencio incómodo.",
+                "cascarita": "No hubo fluidez. Fue un desastre, pero un desastre que llevó a un nuevo comienzo."
+              },
+              {
+                "pregunta": "¿Qué propuso la madre de Otho como alternativa para el ministerio de George después del sermón fallido?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Que se dedicara a la música",
+                  "B) Que fuera un predicador hogareño",
+                  "C) Que regresara a Canadá",
+                  "D) Que estudiara teología"
+                ],
+                "respuesta_correcta": "B) Que fuera un predicador hogareño",
+                "justificacion": "Madre sugirió que George podría tener éxito predicando en los hogares, donde se sintiera más cómodo.",
+                "cascarita": "No fue música ni estudios. Fue una adaptación del ministerio a sus dones."
+              },
+              {
+                "pregunta": "La familia Godsmark le ofreció a George apoyo económico y un hogar permanente después de su fracaso en el púlpito.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "El padre de Otho prometió comprar folletos y apoyarlo económicamente, y Madre dijo que su casa sería la de George.",
+                "cascarita": "No lo abandonaron. Lo apoyaron más que nunca, mostrando una fe práctica."
+              },
+              {
+                "pregunta": "¿Cómo reaccionó la audiencia después del sermón fallido de George?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Aplaudieron y lo felicitaron",
+                  "B) Hubo un silencio incómodo y nadie dijo nada",
+                  "C) Se fueron todos enojados y ofendidos",
+                  "D) Le pidieron que repitiera el sermón"
+                ],
+                "respuesta_correcta": "B) Hubo un silencio incómodo y nadie dijo nada",
+                "justificacion": "El texto describe que nadie habló; se podía escuchar cada paso de George al subir las escaleras.",
+                "cascarita": "No hubo aplausos ni enojo. Fue un silencio que hablaba por sí mismo."
+              },
+              {
+                "pregunta": "Otho se sintió feliz y orgulloso cuando George falló en su sermón, porque así podría volver a tener su habitación.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "Otho estaba preocupado y quería ayudar a George, incluso ofreció su habitación cuando George decidió quedarse.",
+                "cascarita": "No fue felicidad. Otho se sintió triste y quería apoyar a George."
+              },
+              {
+                "pregunta": "¿Qué factor externo contribuyó al fracaso del sermón de George, además de su tartamudez?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) La mala acústica de la sala",
+                  "B) La risa de Johnny y el rasgado de las láminas proféticas",
+                  "C) La falta de interés de la audiencia",
+                  "D) La interrupción de la tía Huldah"
+                ],
+                "respuesta_correcta": "B) La risa de Johnny y el rasgado de las láminas proféticas",
+                "justificacion": "Las notas de George se cayeron, las láminas se rasgaron y Johnny se rió, lo que aumentó el nerviosismo.",
+                "cascarita": "No fue la acústica ni la falta de interés. Los pequeños incidentes se acumularon."
+              },
+              {
+                "pregunta": "George aceptó inmediatamente la sugerencia de la madre de Otho sin dudar ni preguntar.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "Al principio, George estaba nervioso y dudaba, pero después de escuchar el plan y ver el apoyo, aceptó con gratitud.",
+                "cascarita": "No fue inmediato. Hubo un proceso de aceptación y discernimiento."
+              },
+              {
+                "pregunta": "¿Qué ofreció Otho a George cuando la familia decidió que George se quedara?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Su dinero ahorrado",
+                  "B) Su habitación",
+                  "C) Su ropa",
+                  "D) Su comida"
+                ],
+                "respuesta_correcta": "B) Su habitación",
+                "justificacion": "Otho ofreció su habitación a George, mostrando su generosidad y apoyo.",
+                "cascarita": "No era dinero ni ropa. Era su espacio personal, lo más valioso para un niño."
+              },
+              {
+                "pregunta": "Tía Huldah se enojó con George por su fracaso y decidió no visitarlos nunca más.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "Tía Huldah no se enojó; al final, todos comieron bizcochitos y celebraron la nueva dirección del ministerio de George.",
+                "cascarita": "No hubo enojo. Tía Huldah trajo bizcochitos y todos celebraron."
+              },
+              {
+                "pregunta": "¿Qué lección principal se puede extraer de la decisión de George de aceptar la predicación hogareña?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Que el fracaso es definitivo y no hay segundas oportunidades",
+                  "B) Que Dios puede usar diferentes dones y contextos para su obra",
+                  "C) Que la predicación en el púlpito es la única forma válida",
+                  "D) Que la opinión de la familia es más importante que el llamado de Dios"
+                ],
+                "respuesta_correcta": "B) Que Dios puede usar diferentes dones y contextos para su obra",
+                "justificacion": "George descubrió que su llamado no era al púlpito tradicional, sino a un ministerio más personal.",
+                "cascarita": "El fracaso no fue el final, sino un nuevo comienzo en un camino diferente."
+              },
+              {
+                "pregunta": "George estaba tan desanimado después del sermón fallido que quiso irse de la casa de los Godsmark.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "George no quiso irse. Aceptó la nueva dirección y se quedó con la familia Godsmark.",
+                "cascarita": "No fue desánimo, fue redirección. George encontró un nuevo propósito."
+              },
+              {
+                "pregunta": "¿Qué hizo Otho cuando George subió a su habitación después del sermón fallido?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Se fue a jugar con Johnny",
+                  "B) Se sintió triste y preocupado por George",
+                  "C) Se rió de George como los demás",
+                  "D) Se fue a la cocina a comer bizcochitos"
+                ],
+                "respuesta_correcta": "B) Se sintió triste y preocupado por George",
+                "justificacion": "Otho estaba preocupado por George y quería ayudarlo a animarse.",
+                "cascarita": "No se rió ni se fue a jugar. Su lealtad a George era genuina."
+              },
+              {
+                "pregunta": "Los vecinos que vinieron al almuerzo del sábado se fueron decepcionados y nunca volvieron a visitar la casa.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "Aunque el sermón falló, los vecinos se quedaron, comieron bizcochitos y apoyaron la nueva dirección de George.",
+                "cascarita": "No se fueron decepcionados. La comunidad apoyó a George en su nuevo camino."
+              },
+              {
+                "pregunta": "¿Qué reconoció George después de la reunión familiar sobre su llamado?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Que no había sido llamado a predicar",
+                  "B) Que Dios lo llamaba a predicar de diferentes formas",
+                  "C) Que debía volver a su trabajo anterior",
+                  "D) Que debía casarse"
+                ],
+                "respuesta_correcta": "B) Que Dios lo llamaba a predicar de diferentes formas",
+                "justificacion": "George reconoció que Dios lo llamaba a predicar, pero no solo detrás del púlpito, sino de maneras diferentes.",
+                "cascarita": "No negó su llamado. Lo reinterpretó y lo aceptó en una nueva forma."
+              },
+              {
+                "pregunta": "Madre fue la única que no apoyó la nueva dirección de George porque creía que debía ser predicador tradicional.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "Fue precisamente Madre quien propuso la nueva dirección del ministerio hogareño.",
+                "cascarita": "No fue la única opositora. Fue la principal promotora de la nueva idea."
+              },
+              {
+                "pregunta": "¿Cómo se sintió George después de que la familia Godsmark decidió apoyar su ministerio hogareño?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Aún más nervioso y confundido",
+                  "B) Agradecido y con esperanza",
+                  "C) Indiferente",
+                  "D) Enojado porque no era lo que quería"
+                ],
+                "respuesta_correcta": "B) Agradecido y con esperanza",
+                "justificacion": "George sintió que el Señor había hablado a través de la familia y aceptó la nueva dirección con gratitud.",
+                "cascarita": "No era enojo ni indiferencia. Era gratitud y una nueva esperanza."
+              },
+              {
+                "pregunta": "Otho perdió su habitación permanentemente porque George se quedó a vivir en su casa.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "George se quedó, pero Otho ofreció su habitación voluntariamente y se sintió feliz de hacerlo.",
+                "cascarita": "No fue una pérdida. Fue una ofrenda voluntaria de Otho."
+              },
+              {
+                "pregunta": "¿Qué hizo toda la familia después de que George aceptó la predicación hogareña?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Se fueron a la iglesia a celebrar",
+                  "B) Se arrodillaron y agradecieron a Dios",
+                  "C) Comenzaron a discutir sobre quién pagaría los folletos",
+                  "D) Se fueron a cenar al pueblo"
+                ],
+                "respuesta_correcta": "B) Se arrodillaron y agradecieron a Dios",
+                "justificacion": "Después de la decisión, todos se arrodillaron en oración y agradecieron a Dios por su conducción.",
+                "cascarita": "No fue una discusión ni una celebración mundana. Fue un momento de oración y gratitud."
+              },
+              {
+                "pregunta": "El fracaso de George en el púlpito fue el final de su carrera como predicador y nunca volvió a intentarlo.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "El fracaso en el púlpito no fue el final, sino el inicio de un nuevo ministerio más efectivo para George.",
+                "cascarita": "No fue el final. Fue un nuevo comienzo en un camino diferente y más adecuado."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

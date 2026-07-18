@@ -1,0 +1,242 @@
+{
+  "version": 1,
+  "type": "study_export",
+  "scope": "class",
+  "exportedAt": "2026-07-18T14:30:00.000Z",
+  "subjects": [
+    {
+      "id": "el_rey_que_no_podia_predicar",
+      "name": "El Rey Que No Podía Predicar",
+      "icon": "📖",
+      "color": "#b45309",
+      "classes": [
+        {
+          "id": "capitulo_5",
+          "name": "Capítulo 5: Primeras experiencias",
+          "data": {
+            "glosario": {
+              "glosario": [
+                { "termino": "Colportor", "definicion": "Persona que vende libros y literatura religiosa de puerta en puerta.", "grupo": "Ministerio" },
+                { "termino": "Profecías", "definicion": "Mensajes o predicciones sobre eventos futuros, revelados por Dios.", "grupo": "Teología" },
+                { "termino": "Ministerio hogareño", "definicion": "Trabajo religioso realizado en los hogares, visitando a las familias.", "grupo": "Ministerio" },
+                { "termino": "Consunción", "definicion": "Enfermedad debilitante, especialmente tuberculosis, que causaba adelgazamiento extremo.", "grupo": "Salud" }
+              ]
+            },
+            "cuestionario_items": [
+              {
+                "pregunta": "¿Cómo se sintió George al comenzar su ministerio hogareño?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Triste y desanimado",
+                  "B) Emocionado y con fe",
+                  "C) Enojado y frustrado",
+                  "D) Asustado y sin esperanza"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George sentía que el Señor lo guiaba y estaba emocionado por la misión que emprendía.",
+                "cascarita": "No era tristeza ni enojo. Era la emoción de un nuevo comienzo guiado por la fe."
+              },
+              {
+                "pregunta": "George se sintió desanimado y con miedo al comenzar su ministerio hogareño, dudando de su llamado.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George estaba emocionado y con fe, sintiendo que el Señor lo guiaba en su misión.",
+                "cascarita": "No era duda ni miedo. Era confianza en que Dios lo estaba guiando."
+              },
+              {
+                "pregunta": "¿Qué problema encontró George con el agricultor Mac?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) No le quería comprar libros",
+                  "B) Se enojó porque asustó a sus caballos",
+                  "C) No estaba en casa",
+                  "D) Le pidió mucho dinero por la comida"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "Mac se enfureció y gritó a George por asustar a sus caballos, amenazándolo con un látigo.",
+                "cascarita": "No era por los libros ni por el dinero. Fue un malentendido con los caballos."
+              },
+              {
+                "pregunta": "George descubrió que Mac no sabía leer cuando lo vio mirando los folletos al revés.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "George se acercó y vio que el granjero estaba mirando los folletos al revés, lo que indicaba que no podía leer.",
+                "cascarita": "El analfabetismo de Mac era común en la época."
+              },
+              {
+                "pregunta": "¿Qué le sucedió a la esposa de Mac que explicaba su actitud?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Se fue a la ciudad",
+                  "B) Había muerto de consunción",
+                  "C) Estaba enferma en la cama",
+                  "D) No existía"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "Mac le dice a George que su esposa murió de consunción y que ya era demasiado tarde para que ella conociera la verdad.",
+                "cascarita": "No era una esposa viva ni ausente. Era una pérdida que marcaba la vida de Mac."
+              },
+              {
+                "pregunta": "George se sintió enojado con Mac por su maltrato y decidió no visitarlo nunca más.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "Aunque Mac fue brusco, George entendió su dolor y aceptó la dirección que Mac le dio.",
+                "cascarita": "No hubo enojo. George entendió el dolor detrás de la brusquedad."
+              },
+              {
+                "pregunta": "¿Por qué George tuvo que dormir en un cobertizo en su primera noche de viaje?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Porque no tenía dinero para un hotel",
+                  "B) Porque se perdió y no encontró la casa de los Henry",
+                  "C) Porque no quiso molestar a nadie",
+                  "D) Porque estaba lloviendo muy fuerte"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George tomó el camino equivocado y no pudo encontrar la casa de los Henry antes de que oscureciera.",
+                "cascarita": "No era por dinero ni por lluvia. Fue un error de navegación en un camino desconocido."
+              },
+              {
+                "pregunta": "George usó el truco de Ontario: dormir sin ropa y usarla como manta para mantener el calor.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "George se quitó la chaqueta y la camisa y las puso en la parte superior como manta.",
+                "cascarita": "No era un truco mágico. Era sabiduría práctica aprendida en la infancia."
+              },
+              {
+                "pregunta": "¿Quién recogió a George en su sulky al día siguiente cuando estaba caminando?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Un agricultor amable",
+                  "B) Un político que se postulaba para la legislatura",
+                  "C) Un pastor itinerante",
+                  "D) Un vendedor ambulante"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George se encontró con un político que se postulaba para la legislatura estatal.",
+                "cascarita": "No era un agricultor ni un pastor. Era un político con sus propias motivaciones."
+              },
+              {
+                "pregunta": "El político le aconsejó a George que regalara los folletos para ganar la simpatía de la gente.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "El político le dijo que nada es gratis y que debía vender los folletos para que la gente los valorara.",
+                "cascarita": "No era regalar. Era vender, porque según el político, 'nada es gratis en esta vida'."
+              },
+              {
+                "pregunta": "¿Qué hizo George cuando llegó a la casa de la familia Henry?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Solo habló de la Biblia sin hacer nada más",
+                  "B) Ayudó a aventar heno en el granero mientras hablaban",
+                  "C) Se sentó a esperar que le dieran comida",
+                  "D) Durmió todo el día"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George se quitó el abrigo y ayudó a aventar heno mientras hablaba con el Sr. Henry.",
+                "cascarita": "No era solo hablar. George trabajaba mientras compartía la verdad."
+              },
+              {
+                "pregunta": "George decidió que su ministerio era solo predicar, no vender libros, porque eso era mundano.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George entendió que vender folletos era parte del ministerio y ayudaba a comprar más literatura.",
+                "cascarita": "No era mundano. Era una estrategia ministerial que combinaba fe y pragmatismo."
+              },
+              {
+                "pregunta": "¿Qué le regaló la Sra. Henry a George cuando se fue?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Dinero para el viaje",
+                  "B) Una saca con comida",
+                  "C) Un abrigo nuevo",
+                  "D) Un caballo para el camino"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "La Sra. Henry le dio una saca con suficiente comida para al menos dos días.",
+                "cascarita": "No era dinero ni un caballo. Era comida, una bendición práctica para el viaje."
+              },
+              {
+                "pregunta": "George aceptó el dinero del Sr. Henry pero lo usó para comprar más folletos.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "El Sr. Henry le dio tres monedas de diez centavos y George lo guardó para comprar más folletos.",
+                "cascarita": "No lo gastó en él mismo. Lo invirtió en su ministerio."
+              },
+              {
+                "pregunta": "¿Qué lección aprendió George sobre el ministerio después de visitar a la familia Henry?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Que debía quedarse en un solo lugar",
+                  "B) Que su llamado era al ministerio hogareño y la venta de literatura",
+                  "C) Que debía regresar a Canadá",
+                  "D) Que debía buscar un trabajo fijo"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George confirmó que su lugar no era el púlpito, sino los hogares.",
+                "cascarita": "No era quedarse ni regresar. Era confirmar el camino que ya estaba tomando."
+              },
+              {
+                "pregunta": "George se sintió frustrado porque la familia Henry no mostró interés en las profecías.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "La familia Henry mostró gran interés y estudió las profecías con George.",
+                "cascarita": "No fue frustración. Fue una de las experiencias más alentadoras."
+              },
+              {
+                "pregunta": "¿Cómo describió George su nueva comprensión del ministerio?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Como una carga pesada",
+                  "B) Como un ministerio del colportaje",
+                  "C) Como un trabajo temporal",
+                  "D) Como un pasatiempo"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George llamó a su nuevo ministerio 'el ministerio del colportaje'.",
+                "cascarita": "No era una carga ni un pasatiempo. Era un ministerio con propósito y estrategia."
+              },
+              {
+                "pregunta": "George decidió que ya no necesitaba practicar la predicación porque ahora solo vendía libros.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George continuó predicando en los hogares, pero de manera más conversacional.",
+                "cascarita": "No dejó de predicar. Solo cambió el formato: de púlpito a conversación."
+              },
+              {
+                "pregunta": "¿Qué hizo George con los 62 centavos que ganó vendiendo folletos?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Compró comida para el viaje",
+                  "B) Los usó para comprar más folletos",
+                  "C) Envió el dinero a su familia",
+                  "D) Lo guardó para emergencias"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George usó el dinero de las ventas para comprar más literatura.",
+                "cascarita": "No era para comida ni para su familia. Era una inversión en su ministerio."
+              },
+              {
+                "pregunta": "Al final del capítulo, George se sintió tan desanimado que consideró abandonar el ministerio.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George se sintió animado por la experiencia positiva con la familia Henry.",
+                "cascarita": "No fue desánimo. Fue confirmación y ánimo para continuar."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

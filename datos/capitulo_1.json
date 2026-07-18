@@ -1,0 +1,233 @@
+{
+  "version": 1,
+  "type": "study_export",
+  "scope": "class",
+  "exportedAt": "2026-07-18T12:00:00.000Z",
+  "subjects": [
+    {
+      "id": "el_rey_que_no_podia_predicar",
+      "name": "El Rey Que No Podía Predicar",
+      "icon": "📖",
+      "color": "#b45309",
+      "classes": [
+        {
+          "id": "capitulo_1",
+          "name": "Capítulo 1: Otho conoce a George",
+          "data": {
+            "glosario": {
+              "glosario": [
+                { "termino": "Sulky", "definicion": "Carruaje ligero de dos ruedas para una o dos personas, tirado por un caballo.", "grupo": "Transporte" },
+                { "termino": "Calesa", "definicion": "Carruaje descubierto de cuatro ruedas, tirado por caballos.", "grupo": "Transporte" },
+                { "termino": "Gráficos proféticos", "definicion": "Láminas o diagramas que ilustran las profecías bíblicas de Daniel y Apocalipsis.", "grupo": "Material didáctico" },
+                { "termino": "Tartamudeo", "definicion": "Trastorno del habla que se manifiesta con repeticiones, prolongaciones o bloqueos al hablar.", "grupo": "Lenguaje" },
+                { "termino": "Predicador", "definicion": "Persona que predica o da sermones sobre temas religiosos.", "grupo": "Religión" }
+              ]
+            },
+            "cuestionario_items": [
+              {
+                "pregunta": "¿Cuál es el nombre completo de Otho, que su madre usa cuando está enojada?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Othniel Godsmark",
+                  "B) Othmar Godsmark",
+                  "C) Othello Godsmark",
+                  "D) Otho Godsmark"
+                ],
+                "respuesta_correcta": "A) Othniel Godsmark",
+                "justificacion": "En el texto, Madre se refiere a él como 'Othniel Godsmark' cuando está enojada o para llamarle la atención.",
+                "cascarita": "Su nombre bíblico completo casi nunca se usa, excepto cuando alguien está en problemas. ¿Será que suena más formal?"
+              },
+              {
+                "pregunta": "Otho odiaba ir a la iglesia porque le gustaba usar zapatos ajustados y elegantes.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "Otho odiaba ir a la iglesia precisamente porque tenía que usar zapatos, los cuales le apretaban y le causaban picazón.",
+                "cascarita": "Si le gustaran los zapatos, ¿por qué los odiaría? A veces la ropa incómoda arruina la experiencia."
+              },
+              {
+                "pregunta": "¿Qué característica especial tenía la voz del pastor Jaime White?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Era suave y melódica",
+                  "B) Era atronadora y hacía vibrar las vigas",
+                  "C) Era monótona y aburrida",
+                  "D) Era apenas audible y susurrante"
+                ],
+                "respuesta_correcta": "B) Era atronadora y hacía vibrar las vigas",
+                "justificacion": "Otho menciona que el Pr. White tenía una voz atronadora, que hacía vibrar las vigas del templo.",
+                "cascarita": "No era una voz de susurro, sino más bien como un trueno en la iglesia. ¿Te imaginas predicar así?"
+              },
+              {
+                "pregunta": "Otho estaba emocionado de ir a la iglesia cuando predicaba el pastor Jaime White porque sus sermones eran cortos.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "Otho estaba emocionado porque el Pr. White usaba gráficos proféticos con bestias horribles y siempre tenía un relato para los niños.",
+                "cascarita": "No era la duración lo que le gustaba, sino las imágenes y las historias. A veces lo visual atrae más que lo auditivo."
+              },
+              {
+                "pregunta": "¿Qué problema de habla tenía George King que el pastor White mencionó?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Hablaba en susurros",
+                  "B) Tartamudeaba",
+                  "C) Tenía un acento extranjero muy fuerte",
+                  "D) Hablaba demasiado rápido"
+                ],
+                "respuesta_correcta": "B) Tartamudeaba",
+                "justificacion": "El texto describe que George tartamudeaba al hablar, especialmente frente a extraños y en público.",
+                "cascarita": "El tartamudeo no es falta de inteligencia, sino un desafío del habla. George lo superaría de manera diferente."
+              },
+              {
+                "pregunta": "El pastor Jaime White dudaba de que George King pudiera ser predicador porque carecía de fe y dedicación.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "El Pr. White dudaba por la falta de educación y la mala expresión de George, pero reconoció que era consagrado y buen hombre.",
+                "cascarita": "A veces confundimos las habilidades con el carácter. George tenía carácter, pero le faltaba técnica."
+              },
+              {
+                "pregunta": "¿Qué hacía Otho cada 15 minutos durante el servicio en la iglesia en invierno?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Ir a la pila de leña para calentar la estufa",
+                  "B) Salir a jugar en la nieve",
+                  "C) Ayudar a su madre con los himnos",
+                  "D) Leer la Biblia en voz alta"
+                ],
+                "respuesta_correcta": "A) Ir a la pila de leña para calentar la estufa",
+                "justificacion": "Otho tenía que levantarse cada quince minutos para ir a buscar leña para la estufa que calentaba la iglesia.",
+                "cascarita": "Cada 15 minutos, no cada hora. En invierno, la calefacción era un trabajo de tiempo completo."
+              },
+              {
+                "pregunta": "Otho perdió su habitación porque su padre decidió que George King se quedara en su casa.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "Otho sabía que, como consecuencia de la decisión de su padre, tendría que dormir en el sofá de la sala de estar durante el invierno.",
+                "cascarita": "La hospitalidad cristiana a veces significa sacrificios personales. Otho aprendió eso a la fuerza."
+              },
+              {
+                "pregunta": "¿Qué simbolizaban los bueyes Buck y Bright para el padre de Otho después de regalarlos?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Una pérdida económica irreparable",
+                  "B) El esfuerzo continuo de la obra editorial adventista",
+                  "C) Un recuerdo de su juventud en la granja",
+                  "D) Una inversión para el futuro de Otho"
+                ],
+                "respuesta_correcta": "B) El esfuerzo continuo de la obra editorial adventista",
+                "justificacion": "Su padre decía que los bueyes seguían 'tirando' en la imprenta Review and Herald, imprimiendo el mensaje.",
+                "cascarita": "No eran bueyes muertos, seguían trabajando en la imprenta. Una metáfora poderosa sobre el sacrificio."
+              },
+              {
+                "pregunta": "George King se sentía completamente cómodo y confiado cuando hablaba en público desde el principio.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "George tartamudeaba y se mostraba nervioso en público, pero no tenía problemas de habla en privado con Otho.",
+                "cascarita": "El miedo escénico es real. George era diferente en privado que en público."
+              },
+              {
+                "pregunta": "¿Cuál era la principal razón por la que Otho no quería ir a la iglesia?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) El pastor era muy aburrido",
+                  "B) Tenía que usar zapatos",
+                  "C) No le gustaba la música",
+                  "D) Tenía que ayudar con la leña"
+                ],
+                "respuesta_correcta": "B) Tenía que usar zapatos",
+                "justificacion": "Otho odiaba los zapatos porque le picaban las medias de lana y le apretaban los dedos.",
+                "cascarita": "Los zapatos eran su enemigo número uno. La incomodidad física puede arruinar cualquier experiencia."
+              },
+              {
+                "pregunta": "Otho podía entender completamente todos los gráficos proféticos que usaba el pastor White.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "Otho no entendía las partes sobre semanas y días proféticos, pero le gustaban las imágenes de bestias horribles.",
+                "cascarita": "No todo se entiende a la primera. A veces las imágenes captan la atención antes que el significado."
+              },
+              {
+                "pregunta": "¿Cómo se llamaban los bueyes que el padre de Otho regaló a la obra editorial?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Buck y Bright",
+                  "B) Black y Brown",
+                  "C) Bill y Bob",
+                  "D) Ben y Jerry"
+                ],
+                "respuesta_correcta": "A) Buck y Bright",
+                "justificacion": "El texto menciona que los bueyes se llamaban Buck y Bright, y que Buck había sido la favorita de Otho.",
+                "cascarita": "No eran nombres comunes como Ben y Jerry. Buck y Bright tenían un significado especial para la familia."
+              },
+              {
+                "pregunta": "El pastor Jaime White siempre usaba un sombrero de copa negro y un largo abrigo negro con faldones.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "Otho describe que el Pr. White siempre llevaba un sombrero de copa negro y un largo abrigo negro con faldones.",
+                "cascarita": "La apariencia del pastor era tan distintiva que hasta un niño lo reconocía desde lejos."
+              },
+              {
+                "pregunta": "¿Qué hizo Otho cuando George King salió al porche por primera vez?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Se escondió detrás de su madre",
+                  "B) Se quedó mirándolo fijamente",
+                  "C) Corrió a saludarlo",
+                  "D) Se fue a jugar al jardín"
+                ],
+                "respuesta_correcta": "B) Se quedó mirándolo fijamente",
+                "justificacion": "Otho siguió a los adultos y se quedó en el porche mirando a George, fascinado por su apariencia.",
+                "cascarita": "A veces la curiosidad es más fuerte que la timidez. Otho no podía apartar la mirada."
+              },
+              {
+                "pregunta": "George King vestía ropa nueva y elegante cuando llegó a la casa de los Godsmark.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "George vestía ropa deshilachada, con un agujero en la rodilla y manchas brillantes en las posaderas.",
+                "cascarita": "Su ropa contaba una historia de dificultades. No era elegancia, era supervivencia."
+              },
+              {
+                "pregunta": "¿Qué hacía el padre de Otho cuando invitaba a visitas de la iglesia a su casa?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Les pedía que se fueran rápidamente",
+                  "B) Los invitaba a almorzar y a quedarse",
+                  "C) Los enviaba a la iglesia",
+                  "D) Les daba dinero para el viaje"
+                ],
+                "respuesta_correcta": "B) Los invitaba a almorzar y a quedarse",
+                "justificacion": "El padre de Otho siempre invitaba a las visitas a la iglesia a almorzar, y a menudo se quedaban a dormir.",
+                "cascarita": "La hospitalidad era un deber cristiano para él. A veces significaba sacrificar la comodidad familiar."
+              },
+              {
+                "pregunta": "Otho aprendió el significado de la palabra 'propuesta' en este capítulo.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "La palabra 'propuesta' aparece y se explica en el Capítulo 2, no en el Capítulo 1.",
+                "cascarita": "Algunas palabras nuevas aparecen más adelante. No todas las lecciones llegan al mismo tiempo."
+              },
+              {
+                "pregunta": "¿Qué le pasó a Otho cuando fue a buscar leña al exterior de la iglesia?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Se cayó en la nieve",
+                  "B) Un trozo de madera le golpeó la espinilla",
+                  "C) Perdió su abrigo",
+                  "D) Se encontró con un animal salvaje"
+                ],
+                "respuesta_correcta": "B) Un trozo de madera le golpeó la espinilla",
+                "justificacion": "Otho tiró de un trozo de madera y varios se le vinieron encima, golpeándole la espinilla.",
+                "cascarita": "A veces las tareas más simples terminan en accidentes. Otho saltó en un solo pie por un buen rato."
+              },
+              {
+                "pregunta": "El padre de Otho aceptó de inmediato la propuesta de llevar a George King a su casa sin dudar.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "El padre de Otho aceptó la propuesta del Pr. White de llevar a George King a su granja.",
+                "cascarita": "Su padre era conocido por ayudar a la iglesia. No era la primera vez que tomaba una decisión así."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+{
+  "version": 1,
+  "type": "study_export",
+  "scope": "class",
+  "exportedAt": "2026-07-18T14:35:00.000Z",
+  "subjects": [
+    {
+      "id": "el_rey_que_no_podia_predicar",
+      "name": "El Rey Que No Podía Predicar",
+      "icon": "📖",
+      "color": "#b45309",
+      "classes": [
+        {
+          "id": "capitulo_6",
+          "name": "Capítulo 6: Se define la estrategia",
+          "data": {
+            "glosario": {
+              "glosario": [
+                { "termino": "Suscripción", "definicion": "Acuerdo para comprar un libro o publicación que se entrega después de realizado el pedido.", "grupo": "Ventas" },
+                { "termino": "Prospecto", "definicion": "Versión resumida de un libro que se usa para mostrar el contenido y tomar pedidos.", "grupo": "Ventas" },
+                { "termino": "Colportaje", "definicion": "Sistema de venta de libros y literatura religiosa de puerta en puerta.", "grupo": "Ministerio" }
+              ]
+            },
+            "cuestionario_items": [
+              {
+                "pregunta": "¿Qué idea le dio el político a George sobre la venta de folletos?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Que debía regalarlos para ser más querido",
+                  "B) Que debía venderlos para que fueran valorados",
+                  "C) Que debía quemarlos",
+                  "D) Que debía esconderlos"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "El político le dijo que nada es gratis y que la gente apreciaría más los folletos si pagaban por ellos.",
+                "cascarita": "No era regalar ni esconder. El político le enseñó una lección de valor práctico."
+              },
+              {
+                "pregunta": "El político le aconsejó a George que usara el dinero de las ventas para comprar ropa nueva.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "El político le aconsejó que usara el dinero para imprimir más folletos, no para ropa.",
+                "cascarita": "No era para ropa. Era para reinvertir en el ministerio."
+              },
+              {
+                "pregunta": "¿Cómo se sintió George cuando la familia Henry lo recibió en su hogar?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Se sintió rechazado",
+                  "B) Se sintió bienvenido y útil",
+                  "C) Se sintió triste",
+                  "D) Se sintió enojado"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George ayudó a trabajar en el granero y la familia Henry le ofreció comida y hospedaje.",
+                "cascarita": "No era rechazo ni tristeza. Era una bienvenida calurosa."
+              },
+              {
+                "pregunta": "George descubrió que hablar con la gente en sus hogares era más efectivo que predicar desde un púlpito.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "George sintió que era más fácil responder preguntas en el entorno hogareño.",
+                "cascarita": "No era menos efectivo. Era más efectivo porque permitía diálogo."
+              },
+              {
+                "pregunta": "¿Qué hizo George cuando el Sr. Henry le ofreció dinero por los folletos?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Lo rechazó porque los folletos eran gratis",
+                  "B) Lo aceptó y lo usó para comprar más folletos",
+                  "C) Se lo devolvió para no ofenderlo",
+                  "D) Lo donó a la iglesia"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George aceptó el dinero y lo invirtió en comprar más literatura.",
+                "cascarita": "No era orgullo ni rechazo. Era una decisión estratégica."
+              },
+              {
+                "pregunta": "George decidió que el ministerio del colportaje era su verdadero llamado, aunque dudaba de su efectividad.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George estaba convencido y vio el crecimiento como confirmación.",
+                "cascarita": "No era duda. Era convicción confirmada por los resultados."
+              },
+              {
+                "pregunta": "¿Qué aspecto del ministerio de George se fortaleció después de su experiencia con la familia Henry?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Su habilidad para hablar en público",
+                  "B) Su capacidad para vender folletos y predicar en hogares",
+                  "C) Su deseo de regresar a Canadá",
+                  "D) Su interés por la política"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "La experiencia positiva confirmó que el ministerio hogareño y la venta de literatura era su camino.",
+                "cascarita": "No era hablar en público ni política. Era un ministerio combinado."
+              },
+              {
+                "pregunta": "George se sintió frustrado porque la familia Henry no mostró interés en las profecías.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "La familia Henry mostró gran interés y quería estudiar más.",
+                "cascarita": "No fue frustración. Fue aliento y confirmación."
+              },
+              {
+                "pregunta": "¿Qué le dijo George a la iglesia sobre su estrategia de vender folletos?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Que era una pérdida de tiempo",
+                  "B) Que era parte del ministerio del colportaje",
+                  "C) Que era una idea del político",
+                  "D) Que era temporal"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George explicó que el ministerio del colportaje incluía vender literatura.",
+                "cascarita": "No era una idea temporal ni una pérdida. Era una estrategia ministerial."
+              },
+              {
+                "pregunta": "George se sintió tan agradecido con la familia Henry que decidió quedarse a vivir con ellos.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George solo se quedó una noche y continuó su viaje.",
+                "cascarita": "No se quedó. Siguió su viaje, llevando la bendición a otras familias."
+              },
+              {
+                "pregunta": "¿Cómo describió George su nueva comprensión del ministerio en este capítulo?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Como una carga pesada",
+                  "B) Como el ministerio del colportaje",
+                  "C) Como un trabajo temporal",
+                  "D) Como un pasatiempo"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George llamó a su nuevo ministerio 'el ministerio del colportaje'.",
+                "cascarita": "No era una carga ni un pasatiempo. Era un ministerio con propósito."
+              },
+              {
+                "pregunta": "George decidió que ya no necesitaba predicar porque ahora solo vendía libros.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George continuó predicando en los hogares mientras vendía libros.",
+                "cascarita": "No era solo vender. Era predicar a través de la literatura."
+              },
+              {
+                "pregunta": "¿Qué hizo George con los 62 centavos de su primera semana de ventas?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Compró comida",
+                  "B) Compró más folletos",
+                  "C) Envió el dinero a su familia",
+                  "D) Lo guardó para emergencias"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George usó las ganancias para comprar más literatura.",
+                "cascarita": "No era para emergencias ni para su familia. Era una inversión ministerial."
+              },
+              {
+                "pregunta": "George se sintió desanimado por las pocas ventas y consideró abandonar el ministerio.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George se sintió animado porque las ventas de 62 centavos eran un buen comienzo.",
+                "cascarita": "No fue desánimo. Fue un comienzo modesto pero alentador."
+              },
+              {
+                "pregunta": "¿Qué lección principal aprendió George sobre el ministerio en este capítulo?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Que la predicación es lo único que importa",
+                  "B) Que la literatura y la predicación pueden combinarse",
+                  "C) Que el dinero es más importante que la fe",
+                  "D) Que el ministerio solo funciona en las iglesias"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George aprendió que la venta de literatura era una extensión natural del ministerio.",
+                "cascarita": "No era solo predicación ni solo dinero. Era la combinación estratégica de ambos."
+              },
+              {
+                "pregunta": "George se sintió tan feliz con la familia Henry que olvidó las direcciones de otras familias.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George recordó las direcciones y continuó su viaje.",
+                "cascarita": "No olvidó. Siguió el camino trazado por los Henry."
+              },
+              {
+                "pregunta": "¿Qué le dijo George a la iglesia sobre su estrategia de venta?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Que era una pérdida de tiempo",
+                  "B) Que era parte del ministerio",
+                  "C) Que era una idea del político",
+                  "D) Que era temporal"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George explicó que el ministerio del colportaje era una forma válida de predicar.",
+                "cascarita": "No era temporal ni una pérdida. Era una estrategia ministerial efectiva."
+              },
+              {
+                "pregunta": "El político se convirtió al adventismo gracias a la predicación de George.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "El político escuchó a George pero no se convirtió.",
+                "cascarita": "No hubo conversión. Fue un encuentro que cambió la estrategia de George."
+              },
+              {
+                "pregunta": "¿Qué le regaló la Sra. Henry a George que lo ayudó en su viaje?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Dinero",
+                  "B) Una saca con comida",
+                  "C) Un abrigo",
+                  "D) Un mapa"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "La Sra. Henry le dio una saca con suficiente comida para al menos dos días.",
+                "cascarita": "No era un mapa ni dinero. Era comida, una bendición práctica."
+              },
+              {
+                "pregunta": "Al final del capítulo, George estaba tan cansado que decidió tomar un descanso de una semana.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George continuó su viaje sin descanso, lleno de energía.",
+                "cascarita": "No hubo descanso. La energía de su ministerio lo impulsaba."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

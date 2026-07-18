@@ -1,0 +1,231 @@
+{
+  "version": 1,
+  "type": "study_export",
+  "scope": "class",
+  "exportedAt": "2026-07-18T12:10:00.000Z",
+  "subjects": [
+    {
+      "id": "el_rey_que_no_podia_predicar",
+      "name": "El Rey Que No Podía Predicar",
+      "icon": "📖",
+      "color": "#b45309",
+      "classes": [
+        {
+          "id": "capitulo_3",
+          "name": "Capítulo 3: Preparación para el gran día",
+          "data": {
+            "glosario": {
+              "glosario": [
+                { "termino": "Láminas proféticas", "definicion": "Gráficos o diagramas utilizados para ilustrar las profecías de Daniel y Apocalipsis.", "grupo": "Material didáctico" },
+                { "termino": "Púlpito", "definicion": "Plataforma elevada o atril desde donde el predicador pronuncia su sermón.", "grupo": "Elementos de la iglesia" },
+                { "termino": "Escuela Sabática", "definicion": "Estudio bíblico realizado en las iglesias adventistas los sábados.", "grupo": "Actividades eclesiásticas" }
+              ]
+            },
+            "cuestionario_items": [
+              {
+                "pregunta": "¿Qué materiales de estudio le compró el padre de Otho a George?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Una Biblia y un himnario",
+                  "B) Un rollo de láminas proféticas y los libros de Urías Smith",
+                  "C) Una Concordancia y un mapa",
+                  "D) Un cuaderno y plumas"
+                ],
+                "respuesta_correcta": "B) Un rollo de láminas proféticas y los libros de Urías Smith",
+                "justificacion": "El padre de Otho compró específicamente esas dos cosas para que George las usara en su estudio.",
+                "cascarita": "No era una Biblia ni un himnario. Eran materiales especializados para el estudio de las profecías."
+              },
+              {
+                "pregunta": "George prefería practicar sus sermones en la iglesia vacía para sentirse más como un predicador de verdad.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "George y Otho practicaban en la sala de estar o en el granero de la granja, utilizando objetos cotidianos.",
+                "cascarita": "No necesitaba una iglesia. Un granero o una sala de estar eran suficientes para practicar."
+              },
+              {
+                "pregunta": "¿Qué reacción tuvo George al saber que predicaría ante los vecinos en un servicio especial?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Emoción y confianza en sí mismo",
+                  "B) Nerviosismo y tartamudez evidente",
+                  "C) Indiferencia total",
+                  "D) Enojo con el padre de Otho"
+                ],
+                "respuesta_correcta": "B) Nerviosismo y tartamudez evidente",
+                "justificacion": "George comenzó a tartamudear de nuevo y dijo que no tenía hambre, mostrando ansiedad.",
+                "cascarita": "No era emoción ni indiferencia. El nerviosismo lo dominó por completo."
+              },
+              {
+                "pregunta": "Otho aprendió tanto sobre las profecías escuchando a George que superó a todos en su clase de Escuela Sabática.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "Otho podía identificar las bestias y los metales de las profecías mejor que nadie en su clase.",
+                "cascarita": "A veces se aprende más escuchando que estudiando. Otho era un ejemplo de ello."
+              },
+              {
+                "pregunta": "¿Qué papel jugó la familia Godsmark en la preparación de George?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Solo Otho lo ayudaba, los padres estaban ocupados",
+                  "B) Madre repasaba la Biblia, Padre preguntaba y Otho era su audiencia",
+                  "C) Le daban dinero para que comprara más libros",
+                  "D) Lo enviaban a la iglesia a practicar"
+                ],
+                "respuesta_correcta": "B) Madre repasaba la Biblia, Padre preguntaba y Otho era su audiencia",
+                "justificacion": "El texto menciona que toda la familia participaba: Madre con la Biblia, Padre preguntando y Otho como audiencia.",
+                "cascarita": "No era solo Otho. Toda la familia se involucró en la preparación de George."
+              },
+              {
+                "pregunta": "George se sintió abrumado por los materiales de estudio y no pudo concentrarse en su preparación.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "George estaba tan emocionado que estudió hasta tarde con los libros y las láminas, mostrando su dedicación.",
+                "cascarita": "No se sintió abrumado, sino emocionado. Su entusiasmo era evidente."
+              },
+              {
+                "pregunta": "¿Qué usaba George como púlpito cuando practicaba en el granero?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Una mesa de madera",
+                  "B) Un tronco sobre una carretilla",
+                  "C) Un barril vacío",
+                  "D) Una caja de herramientas"
+                ],
+                "respuesta_correcta": "B) Un tronco sobre una carretilla",
+                "justificacion": "George ponía un tronco de madera sobre una carretilla para usarlo como púlpito en el granero.",
+                "cascarita": "No era una mesa ni un barril. La creatividad de George no tenía límites."
+              },
+              {
+                "pregunta": "George practicaba sus sermones durante todo el invierno, sin importar el frío.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "George practicaba incluso en el granero con frío, y todo lo que deseaba hacer era predicar.",
+                "cascarita": "El frío no lo detenía. Su pasión por predicar era más fuerte que cualquier incomodidad."
+              },
+              {
+                "pregunta": "¿Cómo se sentía Otho cuando escuchaba a George predicar en el heno del granero?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Aburrido y con sueño",
+                  "B) Fascinado y atento",
+                  "C) Enojado porque era largo",
+                  "D) Indiferente"
+                ],
+                "respuesta_correcta": "B) Fascinado y atento",
+                "justificacion": "Otho aprendió tanto que sabía las profecías mejor que nadie, mostrando que estaba atento.",
+                "cascarita": "No se aburría. Aprendía mientras escuchaba, incluso en el heno."
+              },
+              {
+                "pregunta": "El padre de Otho decidió que George predicara en la iglesia sin avisar a los vecinos.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "El padre de Otho sugirió invitar a los vecinos para un almuerzo y un servicio especial donde George predicaría.",
+                "cascarita": "No fue en secreto. Fue una invitación abierta a los vecinos."
+              },
+              {
+                "pregunta": "¿Qué libros de Urías Smith recibió George para estudiar?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Pensamientos sobre Daniel y Pensamientos sobre Apocalipsis",
+                  "B) El Gran Conflicto y El Camino a Cristo",
+                  "C) La Educación y El Ministerio de la Bondad",
+                  "D) Testimonios y Consejos"
+                ],
+                "respuesta_correcta": "A) Pensamientos sobre Daniel y Pensamientos sobre Apocalipsis",
+                "justificacion": "El padre de Otho compró los dos libros de Urías Smith: sobre Daniel y sobre Apocalipsis.",
+                "cascarita": "No eran libros de Elena de White. Eran los de Urías Smith, especializados en profecías."
+              },
+              {
+                "pregunta": "George se negó a usar las láminas proféticas porque no le gustaban las ilustraciones.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "George usó las láminas proféticas en sus prácticas y las colgó para estudiar las profecías.",
+                "cascarita": "No las rechazó. Las láminas eran una herramienta importante para su preparación."
+              },
+              {
+                "pregunta": "¿Qué hacía Otho cuando George oraba en su habitación?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Se iba a jugar al jardín",
+                  "B) Ponía su oreja en la puerta para escuchar",
+                  "C) Leía un libro",
+                  "D) Ayudaba a su madre en la cocina"
+                ],
+                "respuesta_correcta": "B) Ponía su oreja en la puerta para escuchar",
+                "justificacion": "Otho ponía su oreja sobre la puerta para escuchar a George orar, interesado en su dedicación.",
+                "cascarita": "La curiosidad de Otho era insaciable. Hasta las oraciones de George le interesaban."
+              },
+              {
+                "pregunta": "George oraba mucho y siempre pedía saber si era la voluntad de Dios que fuera predicador.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "George oraba constantemente pidiendo dirección sobre su llamado a predicar.",
+                "cascarita": "La oración era parte de su rutina diaria. Buscaba confirmación divina."
+              },
+              {
+                "pregunta": "¿Qué dijo el padre de Otho sobre la predicación de George después de los meses de práctica?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Que no había mejorado nada",
+                  "B) Que estaba listo para predicar a los vecinos",
+                  "C) Que debía esperar otro año",
+                  "D) Que debía ir a la escuela de teología"
+                ],
+                "respuesta_correcta": "B) Que estaba listo para predicar a los vecinos",
+                "justificacion": "El padre de Otho sugirió organizar un servicio especial para que George predicara, confiando en su preparación.",
+                "cascarita": "No dijo que esperara. Confiaba en que los meses de práctica habían dado fruto."
+              },
+              {
+                "pregunta": "George se sintió confiado y seguro cuando el padre de Otho le pidió que predicara frente a los vecinos.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "George se puso nervioso y comenzó a tartamudear, mostrando inseguridad.",
+                "cascarita": "No era confianza, era miedo escénico. La práctica en privado no siempre prepara para lo público."
+              },
+              {
+                "pregunta": "¿Qué hacía Otho en el granero mientras George practicaba en invierno?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Se acurrucaba en el heno para mantener el calor",
+                  "B) Se sentaba en una silla de madera",
+                  "C) Se paraba detrás de George",
+                  "D) Se iba al establo de las vacas"
+                ],
+                "respuesta_correcta": "A) Se acurrucaba en el heno para mantener el calor",
+                "justificacion": "Otho se acurrucaba debajo del heno para mantener el calor, con solo su nariz sobresaliendo.",
+                "cascarita": "El frío en el granero era intenso. El heno era su refugio caliente."
+              },
+              {
+                "pregunta": "George no necesitaba practicar porque ya era un buen predicador desde el principio.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "George practicaba constantemente porque sabía que necesitaba mejorar, especialmente por su tartamudez.",
+                "cascarita": "La práctica era su herramienta principal. Sabía que necesitaba mejorar."
+              },
+              {
+                "pregunta": "¿Qué sentía George cuando predicaba sobre las profecías de Daniel y Apocalipsis?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Miedo y confusión",
+                  "B) Pasión y entusiasmo",
+                  "C) Aburrimiento",
+                  "D) Indiferencia"
+                ],
+                "respuesta_correcta": "B) Pasión y entusiasmo",
+                "justificacion": "George predicaba con tanto entusiasmo que Otho aprendió las profecías mejor que nadie en su clase.",
+                "cascarita": "No era aburrimiento. Su pasión era tan contagiosa que hasta un niño aprendía."
+              },
+              {
+                "pregunta": "La familia Godsmark estaba tan comprometida con la preparación de George que Madre incluso le cosía su ropa.",
+                "tipo": "falso_verdadero",
+                "respuesta_correcta": "Falso",
+                "justificacion": "La madre de Otho repasaba la Biblia con George, pero la costura se menciona en otros capítulos.",
+                "cascarita": "No se menciona costura en este capítulo. Cada capítulo tiene su enfoque diferente."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

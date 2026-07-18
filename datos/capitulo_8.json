@@ -1,0 +1,241 @@
+{
+  "version": 1,
+  "type": "study_export",
+  "scope": "class",
+  "exportedAt": "2026-07-18T14:45:00.000Z",
+  "subjects": [
+    {
+      "id": "el_rey_que_no_podia_predicar",
+      "name": "El Rey Que No Podía Predicar",
+      "icon": "📖",
+      "color": "#b45309",
+      "classes": [
+        {
+          "id": "capitulo_8",
+          "name": "Capítulo 8: El legado de George King",
+          "data": {
+            "glosario": {
+              "glosario": [
+                { "termino": "Colportaje", "definicion": "Sistema de venta de libros y literatura religiosa de puerta en puerta.", "grupo": "Ministerio" },
+                { "termino": "Suscripción", "definicion": "Método de venta donde el cliente encarga el libro y se lo entregan después.", "grupo": "Ventas" },
+                { "termino": "Review and Herald", "definicion": "Imprenta y publicación oficial de la Iglesia Adventista del Séptimo Día.", "grupo": "Institución" }
+              ]
+            },
+            "cuestionario_items": [
+              {
+                "pregunta": "¿Qué convenció a la Review and Herald para imprimir el libro combinado de Daniel y Apocalipsis?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Una donación de la iglesia",
+                  "B) La promesa de George de vender mil ejemplares",
+                  "C) La orden del pastor White",
+                  "D) La garantía de Elena de White"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George garantizó la venta de mil ejemplares, lo que persuadió a los líderes.",
+                "cascarita": "No era una donación ni una orden. Era la promesa personal de George."
+              },
+              {
+                "pregunta": "George convenció a la Review and Herald para imprimir el libro prometiendo vender mil ejemplares.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "George garantizó la venta de mil ejemplares.",
+                "cascarita": "Su promesa era audaz pero basada en su fe en el proyecto."
+              },
+              {
+                "pregunta": "¿Quién grabó las ilustraciones para el nuevo libro de Daniel y Apocalipsis?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) George King",
+                  "B) Urías Smith",
+                  "C) El Dr. Kellogg",
+                  "D) Jaime White"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "Urías Smith, que había sido grabador en madera, cinceló las imágenes.",
+                "cascarita": "No era George ni el Dr. Kellogg. Era el mismo Urías Smith."
+              },
+              {
+                "pregunta": "Urías Smith no tenía habilidades artísticas, por lo que las ilustraciones fueron hechas por otros.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "Urías Smith había sido grabador en madera y él mismo cinceló las ilustraciones.",
+                "cascarita": "Smith era multifacético: teólogo y artista."
+              },
+              {
+                "pregunta": "¿Cuánto costaba la copia más barata del nuevo libro de Daniel y Apocalipsis?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) 1.50 dólares",
+                  "B) 2.50 dólares",
+                  "C) 4.00 dólares",
+                  "D) 5.00 dólares"
+                ],
+                "respuesta_correcta": "A",
+                "justificacion": "La copia con cubierta de lino azul y verde costaba 1.50 dólares.",
+                "cascarita": "No era 2.50 ni 4.00. La opción más económica era 1.50."
+              },
+              {
+                "pregunta": "El libro combinado fue un fracaso comercial y solo se vendieron pocas copias.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "El libro fue uno de los más vendidos y sentó las bases del colportaje.",
+                "cascarita": "No fue un fracaso. Fue un éxito que transformó el colportaje."
+              },
+              {
+                "pregunta": "¿Qué le dijo George a Webb Reavis para que comprara la primera copia del nuevo libro?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Que era una oferta especial",
+                  "B) Que era para la 'buena suerte'",
+                  "C) Que era una inversión",
+                  "D) Que era un regalo"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George insistió en que Webb comprara el primer libro para la 'buena suerte'.",
+                "cascarita": "No era una oferta ni un regalo. Era un gesto simbólico."
+              },
+              {
+                "pregunta": "George King vendió más de 25,000 dólares en libros a lo largo de su vida.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "George admitió haber vendido más de 25,000 dólares.",
+                "cascarita": "Era una cifra que refleja décadas de trabajo dedicado."
+              },
+              {
+                "pregunta": "¿Qué factor contribuyó a la muerte prematura de George King?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Una enfermedad hereditaria",
+                  "B) El desgaste físico del trabajo al aire libre",
+                  "C) Un accidente durante sus viajes",
+                  "D) La falta de atención médica"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "El autor sugiere que George murió joven por los rigores del trabajo al aire libre.",
+                "cascarita": "No era una enfermedad hereditaria ni un accidente. Era el desgaste."
+              },
+              {
+                "pregunta": "La obra más importante de George fue la cantidad de libros que vendió.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "El autor afirma que su legado fue su devoción al ministerio del colportaje.",
+                "cascarita": "No eran las ventas. Era la devoción al ministerio que estableció."
+              },
+              {
+                "pregunta": "¿Qué legado dejó George King que aún perdura hoy?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Sus sermones grabados",
+                  "B) El sistema de venta de libros por suscripción",
+                  "C) Sus escritos teológicos",
+                  "D) La construcción de iglesias"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "El legado de George fue el establecimiento del colportaje como ministerio.",
+                "cascarita": "No eran sermones ni iglesias. Era un sistema que transformó el ministerio."
+              },
+              {
+                "pregunta": "George se sintió tan exitoso que se olvidó de sus amigos y nunca más visitó a Otho.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George mantuvo contacto con Otho y regresaba a visitarlo cuando podía.",
+                "cascarita": "No olvidó a sus amigos. La amistad con Otho fue importante toda su vida."
+              },
+              {
+                "pregunta": "¿Cuántos ejemplares se vendieron del nuevo libro para julio de 1882?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) 500",
+                  "B) 1000",
+                  "C) 1500",
+                  "D) 5000"
+                ],
+                "respuesta_correcta": "C",
+                "justificacion": "Para julio, se habían vendido mil quinientos ejemplares.",
+                "cascarita": "No eran 500 ni 1000. Eran 1500, superando las expectativas."
+              },
+              {
+                "pregunta": "George eligió Nueva York porque era el campo más fácil para el colportaje.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George eligió Nueva York porque era el campo más difícil.",
+                "cascarita": "No era fácil. Era difícil, y por eso lo eligió."
+              },
+              {
+                "pregunta": "¿Qué le dijo Otho a George que lo conmovió profundamente?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Que debía retirarse",
+                  "B) Que era un buen orador",
+                  "C) Que debía casarse",
+                  "D) Que era un fracaso"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "Otho le dijo que era un buen orador y que sería un predicador.",
+                "cascarita": "No era retiro ni fracaso. Era un cumplido de amigo."
+              },
+              {
+                "pregunta": "George se sintió tan orgulloso de su éxito que empezó a vender libros más caros.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George mantuvo precios accesibles y se mantuvo humilde.",
+                "cascarita": "No era orgullo. Era humildad y servicio."
+              },
+              {
+                "pregunta": "¿Qué hizo George cuando el Dr. Kellogg le enseñó el sistema de suscripción?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Lo rechazó porque era complicado",
+                  "B) Lo adoptó y lo perfeccionó",
+                  "C) Lo olvidó rápidamente",
+                  "D) Se lo enseñó a otros"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George adoptó el sistema de suscripción y lo perfeccionó.",
+                "cascarita": "No lo rechazó. Lo tomó y lo hizo suyo."
+              },
+              {
+                "pregunta": "George King nunca recibió reconocimiento por su trabajo en el colportaje.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George fue reconocido por su trabajo, y su legado continúa.",
+                "cascarita": "Sí fue reconocido, pero su legado es más importante."
+              },
+              {
+                "pregunta": "¿Cuál fue el legado más importante de George King según el autor?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Sus sermones",
+                  "B) Su devoción al colportaje",
+                  "C) Sus libros",
+                  "D) Su familia"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "El autor afirma que su legado fue su devoción al ministerio del colportaje.",
+                "cascarita": "No eran sermones ni libros. Era la devoción a un ministerio."
+              },
+              {
+                "pregunta": "Al final del capítulo, Otho se convirtió en colportor siguiendo el ejemplo de George.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "Otho se convirtió en pastor, no en colportor.",
+                "cascarita": "No era colportor. Era pastor, con profundo respeto por George."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

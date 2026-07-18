@@ -1,0 +1,241 @@
+{
+  "version": 1,
+  "type": "study_export",
+  "scope": "class",
+  "exportedAt": "2026-07-18T14:40:00.000Z",
+  "subjects": [
+    {
+      "id": "el_rey_que_no_podia_predicar",
+      "name": "El Rey Que No Podía Predicar",
+      "icon": "📖",
+      "color": "#b45309",
+      "classes": [
+        {
+          "id": "capitulo_7",
+          "name": "Capítulo 7: Madurez en el servicio",
+          "data": {
+            "glosario": {
+              "glosario": [
+                { "termino": "Colportaje", "definicion": "Sistema de venta de libros y literatura religiosa de puerta en puerta.", "grupo": "Ministerio" },
+                { "termino": "Suscripción", "definicion": "Método de venta donde el cliente encarga el libro y se lo entregan después.", "grupo": "Ventas" },
+                { "termino": "Testimonio 29", "definicion": "Escrito de Elena de White que impulsó el ministerio del colportaje.", "grupo": "Teología" }
+              ]
+            },
+            "cuestionario_items": [
+              {
+                "pregunta": "¿Qué hacía George cuando no podía ganar suficiente dinero vendiendo folletos?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Pedía dinero prestado a la iglesia",
+                  "B) Trabajaba en otros empleos como la cosecha",
+                  "C) Regresaba a casa de sus padres",
+                  "D) Dejaba el ministerio temporalmente"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George tenía que conseguir trabajos regulares para mantenerse.",
+                "cascarita": "No pedía prestado ni dejaba el ministerio. Trabajaba en otros empleos."
+              },
+              {
+                "pregunta": "George pudo dedicarse al colportaje de tiempo completo sin necesidad de otros trabajos desde el principio.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George tenía que trabajar en otros empleos cuando las ventas no eran suficientes.",
+                "cascarita": "No fue fácil al principio. El sacrificio fue parte de su camino."
+              },
+              {
+                "pregunta": "¿Qué innovación introdujo el Dr. John Harvey Kellogg que revolucionó el colportaje?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) La impresión de libros a color",
+                  "B) La venta de libros por suscripción",
+                  "C) La creación de bibliotecas móviles",
+                  "D) La distribución gratuita de libros"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "El Dr. Kellogg implementó el sistema de suscripción.",
+                "cascarita": "No era impresión a color ni bibliotecas. Era un nuevo método de venta."
+              },
+              {
+                "pregunta": "El Testimonio 29 de Elena de White fue clave para legitimar y expandir el ministerio del colportaje.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "El Testimonio 29 impulsó a la iglesia a apoyar el colportaje.",
+                "cascarita": "No fue un documento menor. Fue un impulso profético al colportaje."
+              },
+              {
+                "pregunta": "¿Qué libro de más de 1600 páginas se vendió por suscripción con gran éxito?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) El Gran Conflicto",
+                  "B) El Manual casero de higiene doméstica",
+                  "C) Pensamientos sobre Daniel",
+                  "D) El Camino a Cristo"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "El Dr. Kellogg escribió ese libro y fue uno de los primeros vendidos por suscripción.",
+                "cascarita": "No era El Gran Conflicto ni Pensamientos sobre Daniel. Era un libro de salud."
+              },
+              {
+                "pregunta": "George se sintió desanimado por el Testimonio 29 porque no veía cómo aplicarlo.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George se sintió animado y vio en el Testimonio 29 una confirmación.",
+                "cascarita": "No fue desánimo. Fue confirmación y ánimo."
+              },
+              {
+                "pregunta": "¿Qué cambió en la percepción del colportaje después del Testimonio 29?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Se consideró una actividad secundaria",
+                  "B) Se reconoció como un ministerio legítimo",
+                  "C) Se limitó a unas pocas personas",
+                  "D) Se prohibió en algunas regiones"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "El Testimonio 29 impulsó a la iglesia a apoyar el colportaje como ministerio.",
+                "cascarita": "No fue secundario ni limitado. Fue elevado al nivel de ministerio."
+              },
+              {
+                "pregunta": "George King murió en 1906 a los 59 años, después de dedicar su vida al colportaje.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "George murió en Nueva York en 1906, a los 59 años.",
+                "cascarita": "Su vida fue corta pero su legado perdura."
+              },
+              {
+                "pregunta": "¿Qué le dijo Otho a George cuando se reencontraron después de siete años?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Que debía casarse",
+                  "B) Que debía cuidarse mejor",
+                  "C) Que debía dejar el colportaje",
+                  "D) Que debía volver a la granja"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "Otho le dijo que debía cuidar mejor de sí mismo.",
+                "cascarita": "No era casarse ni dejar el colportaje. Era un consejo de salud."
+              },
+              {
+                "pregunta": "George se sintió tan exitoso que se olvidó de orar y estudiar la Biblia.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George continuó orando y estudiando, manteniendo su vida espiritual.",
+                "cascarita": "No fue éxito sin espiritualidad. La oración seguía siendo su base."
+              },
+              {
+                "pregunta": "¿Cuántas suscripciones había obtenido George en Ontario en 1879?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) 50 suscripciones",
+                  "B) 125 suscripciones",
+                  "C) 200 suscripciones",
+                  "D) 500 suscripciones"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George escribió que había obtenido 125 suscripciones.",
+                "cascarita": "No eran 50 ni 200. Eran 125, un número significativo."
+              },
+              {
+                "pregunta": "George sintió que el llamado a regresar a Canadá era una distracción.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George sintió un llamado a regresar a Canadá porque había más necesidad.",
+                "cascarita": "No era una distracción. Era un llamado a un campo más necesitado."
+              },
+              {
+                "pregunta": "¿Qué estrategia usó George para vender libros en los primeros años?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Regalarlos",
+                  "B) Venderlos por suscripción",
+                  "C) Cambiarlos por comida",
+                  "D) Dejarlos en las iglesias"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George adoptó el método de suscripción para vender libros.",
+                "cascarita": "No era regalar ni cambiar. Era un método de venta organizado."
+              },
+              {
+                "pregunta": "George se sintió tan exitoso con el colportaje que dejó de lado la predicación.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George continuó predicando en los hogares mientras vendía libros.",
+                "cascarita": "No era solo ventas. Era un ministerio combinado."
+              },
+              {
+                "pregunta": "¿Qué le dijo Otho a George sobre su apariencia después de siete años?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Que se veía más joven",
+                  "B) Que tenía muchas arrugas por el sol y el viento",
+                  "C) Que se veía igual",
+                  "D) Que estaba más gordo"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "Otho notó que George tenía muchas líneas en la cara.",
+                "cascarita": "No era juventud ni gordura. Era el desgaste del trabajo al aire libre."
+              },
+              {
+                "pregunta": "George se sentía tan orgulloso de sus logros que empezó a cobrar más caro.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "George mantenía precios accesibles y nunca se enriqueció.",
+                "cascarita": "No era orgullo ni avaricia. Era un ministerio de servicio."
+              },
+              {
+                "pregunta": "¿Qué libro de Urías Smith se convirtió en uno de los más vendidos?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Pensamientos sobre Daniel",
+                  "B) Pensamientos sobre Apocalipsis",
+                  "C) Ambos combinados en un solo tomo",
+                  "D) El Conflicto de los Siglos"
+                ],
+                "respuesta_correcta": "C",
+                "justificacion": "George combinó los dos libros de Urías Smith en un solo tomo.",
+                "cascarita": "No era uno solo. Era la combinación de ambos en un volumen unificado."
+              },
+              {
+                "pregunta": "George King vendió más de 25,000 dólares en libros a lo largo de su vida.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Verdadero",
+                "justificacion": "George admitió haber vendido más de 25,000 dólares.",
+                "cascarita": "No era una cifra pequeña. Era un testimonio de su dedicación."
+              },
+              {
+                "pregunta": "¿Qué hizo George en Nueva York durante los últimos 19 años?",
+                "tipo": "seleccion",
+                "opciones": [
+                  "A) Trabajó en una fábrica",
+                  "B) Continuó con el colportaje",
+                  "C) Se retiró del ministerio",
+                  "D) Se dedicó a la política"
+                ],
+                "respuesta_correcta": "B",
+                "justificacion": "George pasó los últimos 19 años trabajando en Nueva York.",
+                "cascarita": "No era retiro ni fábrica. Era su campo más difícil."
+              },
+              {
+                "pregunta": "Al final del capítulo, Otho se convirtió en colportor gracias al ejemplo de George.",
+                "tipo": "falso_verdadero",
+                "opciones": ["Verdadero", "Falso"],
+                "respuesta_correcta": "Falso",
+                "justificacion": "Otho se graduó y se convirtió en pastor, no en colportor.",
+                "cascarita": "No era colportor. Era pastor, pero siempre recordaba a George."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
