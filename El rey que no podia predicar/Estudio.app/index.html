@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+    <title>El Rey que no podía predicar - Evaluación</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f0eb;
+            color: #2d2a24;
+            min-height: 100vh;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        .app-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 16px;
+        }
+
+        header {
+            text-align: center;
+            padding: 16px 0;
+            border-bottom: 3px solid #b45309;
+            margin-bottom: 16px;
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            color: #b45309;
+        }
+
+        header p {
+            color: #6b5b4e;
+            font-size: 1rem;
+        }
+
+        .nombre-section {
+            background: #faf8f6;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            border: 2px solid #e8e0d8;
+        }
+
+        .nombre-section label {
+            font-weight: 600;
+            font-size: 1rem;
+            display: block;
+            margin-bottom: 8px;
+            color: #2d2a24;
+        }
+
+        .nombre-section input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+            background: white;
+            transition: border 0.3s;
+        }
+
+        .nombre-section input:focus {
+            border-color: #b45309;
+            outline: none;
+        }
+
+        .nombre-section .btn-iniciar {
+            background: #b45309;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin-top: 12px;
+            width: 100%;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
+        }
+
+        .nombre-section .btn-iniciar:active {
+            background: #8f3f07;
+        }
+
+        .nombre-section .btn-iniciar:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .nombre-usuario {
+            text-align: center;
+            font-size: 1.1rem;
+            color: #b45309;
+            font-weight: 600;
+            margin-bottom: 16px;
+            padding: 8px;
+            background: #faf8f6;
+            border-radius: 8px;
+        }
+
+        .estudio-section {
+            display: none;
+        }
+
+        .estudio-section.visible {
+            display: block;
+        }
+
+        .chapter-nav {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .chapter-nav button {
+            padding: 10px 16px;
+            border: 2px solid #b45309;
+            background: white;
+            color: #b45309;
+            border-radius: 30px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 0.9rem;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
+        }
+
+        .chapter-nav button:hover,
+        .chapter-nav button:active {
+            background: #b45309;
+            color: white;
+        }
+
+        .chapter-nav button.active {
+            background: #b45309;
+            color: white;
+        }
+
+        #content {
+            background: white;
+            border-radius: 16px;
+            padding: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            min-height: 350px;
+        }
+
+        .welcome {
+            text-align: center;
+            color: #8a7a6a;
+            font-size: 1.1rem;
+            padding: 40px 0;
+        }
+
+        .chapter-title {
+            font-size: 1.4rem;
+            color: #2d2a24;
+            margin-bottom: 4px;
+        }
+
+        .chapter-subtitle {
+            color: #6b5b4e;
+            margin-bottom: 20px;
+            font-size: 0.95rem;
+        }
+
+        .question-block {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+            transition: opacity 0.3s ease;
+        }
+
+        .question-block:last-child {
+            border-bottom: none;
+        }
+
+        .question-block.locked .option-label {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .question-block.locked .option-label input {
+            cursor: not-allowed;
+        }
+
+        .question-block.locked .btn-validate {
+            display: none;
+        }
+
+        .question-block.answered-correct .option-label.selected-correct {
+            background: #d4edda;
+            border: 2px solid #28a745;
+            border-radius: 8px;
+        }
+
+        .question-block.answered-incorrect .option-label.selected-incorrect {
+            background: #f8d7da;
+            border: 2px solid #dc3545;
+            border-radius: 8px;
+        }
+
+        .question-block.answered-incorrect .option-label.correct-answer {
+            background: #d4edda;
+            border: 2px solid #28a745;
+            border-radius: 8px;
+        }
+
+        .question-text {
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            margin-bottom: 10px;
+        }
+
+        .option-label {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 14px;
+            background: #faf8f6;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.2s, border 0.2s;
+            border: 2px solid transparent;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
+            min-height: 48px;
+        }
+
+        .option-label:active {
+            background: #e8e0d8;
+        }
+
+        .option-label input[type="radio"],
+        .option-label input[type="checkbox"] {
+            accent-color: #b45309;
+            width: 20px;
+            height: 20px;
+            flex-shrink: 0;
+        }
+
+        .option-label input[type="radio"]:disabled,
+        .option-label input[type="checkbox"]:disabled {
+            accent-color: #6c757d;
+        }
+
+        .btn-validate {
+            background: #b45309;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 30px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 0.95rem;
+            transition: background 0.3s;
+            margin-top: 4px;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
+            width: 100%;
+            max-width: 200px;
+        }
+
+        .btn-validate:active {
+            background: #8f3f07;
+        }
+
+        .btn-validate:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .feedback {
+            margin-top: 12px;
+            padding: 12px 16px;
+            border-radius: 10px;
+            border-left: 5px solid #b45309;
+            background: #faf8f6;
+            display: none;
+            font-size: 0.95rem;
+        }
+
+        .feedback.correct {
+            border-left-color: #2b7a4b;
+            background: #eaf5ef;
+        }
+
+        .feedback.incorrect {
+            border-left-color: #b13e3e;
+            background: #fdeaea;
+        }
+
+        .feedback .cascarita {
+            margin-top: 8px;
+            font-size: 0.9rem;
+            color: #4a4a4a;
+            background: #f0ebe6;
+            padding: 8px 12px;
+            border-radius: 8px;
+            font-style: italic;
+        }
+
+        .glosario-section {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px dashed #ddd;
+        }
+
+        .glosario-section h3 {
+            color: #b45309;
+            margin-bottom: 12px;
+            font-size: 1.1rem;
+        }
+
+        .glosario-item {
+            display: flex;
+            gap: 10px;
+            padding: 6px 0;
+            border-bottom: 1px solid #f0ebe6;
+            flex-wrap: wrap;
+            font-size: 0.9rem;
+        }
+
+        .glosario-item .termino {
+            font-weight: 600;
+            min-width: 110px;
+        }
+
+        .glosario-item .definicion {
+            color: #4a4a4a;
+            flex: 1;
+        }
+
+        .glosario-item .grupo {
+            color: #8a7a6a;
+            font-size: 0.8rem;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 30px;
+            color: #8a7a6a;
+        }
+
+        .error {
+            color: #b13e3e;
+            padding: 16px;
+            background: #fdeaea;
+            border-radius: 10px;
+            font-size: 0.95rem;
+        }
+
+        .error h3 {
+            margin-bottom: 8px;
+        }
+
+        .btn-unlock-all {
+            margin-top: 16px;
+            padding: 10px 20px;
+            background: #6b5b4e;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
+        }
+
+        .btn-unlock-all:active {
+            background: #4a3f35;
+        }
+
+        .btn-unlock-all-container {
+            text-align: center;
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #eee;
+        }
+
+        .btn-enviar-container {
+            text-align: center;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 2px solid #b45309;
+        }
+
+        .btn-enviar {
+            background: #2b7a4b;
+            color: white;
+            border: none;
+            padding: 14px 32px;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background 0.3s;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .btn-enviar:active {
+            background: #1e5f3a;
+        }
+
+        .btn-enviar:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .input-file-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            padding: 24px;
+            border: 2px dashed #b45309;
+            border-radius: 12px;
+            background: #faf8f6;
+            text-align: center;
+        }
+
+        .input-file-wrapper p {
+            font-size: 0.95rem;
+            color: #2d2a24;
+        }
+
+        .cargar-datos-btn {
+            background: #2b7a4b;
+            color: white;
+            border: none;
+            padding: 14px 24px;
+            border-radius: 30px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s;
+            width: 100%;
+            max-width: 300px;
+            -webkit-tap-highlight-color: transparent;
+            touch-action: manipulation;
+        }
+
+        .cargar-datos-btn:active {
+            background: #1e5f3a;
+        }
+
+        @media (max-width: 600px) {
+            .app-container {
+                padding: 10px;
+            }
+            #content {
+                padding: 16px;
+            }
+            .chapter-nav button {
+                padding: 8px 12px;
+                font-size: 0.8rem;
+            }
+            .question-text {
+                font-size: 0.95rem;
+            }
+            .option-label {
+                padding: 8px 12px;
+                min-height: 44px;
+            }
+            .btn-validate {
+                max-width: 100%;
+            }
+            .btn-enviar {
+                max-width: 100%;
+            }
+            header h1 {
+                font-size: 1.5rem;
+            }
+            .glosario-item {
+                flex-direction: column;
+                gap: 2px;
+            }
+            .glosario-item .termino {
+                min-width: auto;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .chapter-nav button {
+                padding: 6px 10px;
+                font-size: 0.75rem;
+                flex: 1 0 40%;
+            }
+        }
+
+        .resultado-final {
+            background: #eaf5ef;
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .resultado-final h3 {
+            color: #2b7a4b;
+            margin-bottom: 8px;
+        }
+
+        .resultado-final .puntaje {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #b45309;
+        }
+
+        .resultado-final .detalle {
+            text-align: left;
+            margin-top: 12px;
+            font-size: 0.9rem;
+            background: white;
+            padding: 12px;
+            border-radius: 8px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .resultado-final .detalle .item {
+            padding: 4px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .resultado-final .detalle .item:last-child {
+            border-bottom: none;
+        }
+
+        .resultado-final .detalle .correcto {
+            color: #2b7a4b;
+        }
+
+        .resultado-final .detalle .incorrecto {
+            color: #b13e3e;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="app-container">
+        <header>
+            <h1>📖 El Rey que no podía predicar</h1>
+            <p>Sistema de evaluación</p>
+        </header>
+
+        <div class="nombre-section" id="nombreSection">
+            <label for="nombreInput">👦 Nombre del niño o niña:</label>
+            <input type="text" id="nombreInput" placeholder="Escribe tu nombre completo..." />
+            <button class="btn-iniciar" id="btnIniciar" disabled>Comenzar evaluación</button>
+        </div>
+
+        <div class="estudio-section" id="estudioSection">
+            <div class="nombre-usuario" id="nombreUsuarioDisplay"></div>
+
+            <nav class="chapter-nav">
+                <button data-chapter="1">Cap. 1</button>
+                <button data-chapter="2">Cap. 2</button>
+                <button data-chapter="3">Cap. 3</button>
+                <button data-chapter="4">Cap. 4</button>
+                <button data-chapter="5">Cap. 5</button>
+                <button data-chapter="6">Cap. 6</button>
+                <button data-chapter="7">Cap. 7</button>
+                <button data-chapter="8">Cap. 8</button>
+            </nav>
+
+            <main id="content">
+                <div class="welcome">
+                    <p>Selecciona un capítulo para comenzar el estudio</p>
+                </div>
+            </main>
+
+            <div class="btn-enviar-container">
+                <button class="btn-enviar" id="btnEnviar" disabled>📤 Enviar respuestas</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ====================================================
+        // SISTEMA DE ESTUDIO - CON SOPORTE PARA ACENTOS
+        // ====================================================
+
+        const nombreInput = document.getElementById('nombreInput');
+        const btnIniciar = document.getElementById('btnIniciar');
+        const nombreSection = document.getElementById('nombreSection');
+        const estudioSection = document.getElementById('estudioSection');
+        const nombreUsuarioDisplay = document.getElementById('nombreUsuarioDisplay');
+        const btnEnviar = document.getElementById('btnEnviar');
+
+        const chapterNav = document.querySelector('.chapter-nav');
+        const content = document.getElementById('content');
+
+        let currentChapter = null;
+        let chapterData = null;
+        let datosCargados = {};
+        let respuestas = {};
+        let detallesRespuestas = {};
+        let nombreUsuario = '';
+        let totalPreguntas = 0;
+        let respondidas = 0;
+
+        // ============================================
+        // CARGAR JSON - CON SOPORTE PARA ACENTOS
+        // ============================================
+        async function cargarJSON(num) {
+            try {
+                // Intentar sin acento primero
+                let url = `datos/capitulo_${num}.json`;
+                console.log('Intentando:', url);
+                let response = await fetch(url);
+
+                // Si falla, intentar con acento
+                if (!response.ok) {
+                    url = `datos/capítulo_${num}.json`;
+                    console.log('Reintentando con acento:', url);
+                    response = await fetch(url);
+                }
+
+                if (!response.ok) {
+                    throw new Error('HTTP ' + response.status);
+                }
+                const data = await response.json();
+                datosCargados[num] = data;
+                procesarCapitulo(num, data);
+                return true;
+            } catch (e) {
+                console.error('Error cargando capítulo ' + num + ':', e);
+                return false;
+            }
+        }
+
+        // ============================================
+        // PROCESAR CAPÍTULO
+        // ============================================
+        function procesarCapitulo(num, data) {
+            try {
+                if (!data || !data.subjects || !data.subjects[0] || !data.subjects[0].classes) {
+                    throw new Error('Estructura de datos inválida');
+                }
+                const classData = data.subjects[0].classes[0];
+                if (!classData || !classData.data) {
+                    throw new Error('Estructura de datos inválida');
+                }
+                const glosario = classData.data.glosario?.glosario || [];
+                const preguntas = classData.data.cuestionario_items || [];
+
+                if (!respuestas[num]) {
+                    respuestas[num] = {};
+                }
+                if (!detallesRespuestas[num]) {
+                    detallesRespuestas[num] = {};
+                }
+
+                totalPreguntas += preguntas.length;
+
+                chapterData = data;
+                currentChapter = num;
+                renderChapter(classData, glosario, preguntas);
+                updateActiveButton(num);
+                actualizarBotonEnviar();
+
+            } catch (error) {
+                alert('Error al procesar el capítulo: ' + error.message);
+            }
+        }
+
+        // ============================================
+        // CARGAR CAPÍTULO
+        // ============================================
+        async function loadChapter(num) {
+            content.innerHTML = `<div class="loading">⏳ Cargando capítulo ${num}...</div>`;
+
+            if (datosCargados[num]) {
+                procesarCapitulo(num, datosCargados[num]);
+                return;
+            }
+
+            const exito = await cargarJSON(num);
+            if (!exito) {
+                content.innerHTML = `
+                    <div class="error">
+                        <h3>❌ Error al cargar el capítulo ${num}</h3>
+                        <p>No se pudo cargar el archivo <strong>capitulo_${num}.json</strong></p>
+                        <p style="margin-top:10px;font-size:0.9rem;">
+                            Verifica que el archivo exista en la carpeta <strong>datos/</strong>
+                            <br>Buscando: <strong>capitulo_${num}.json</strong> o <strong>capítulo_${num}.json</strong>
+                        </p>
+                        <button onclick="loadChapter(${num})" style="margin-top:15px;padding:10px 20px;background:#b45309;color:white;border:none;border-radius:8px;cursor:pointer;">
+                            🔄 Reintentar
+                        </button>
+                    </div>
+                `;
+            }
+        }
+
+        // ============================================
+        // RENDERIZAR CAPÍTULO
+        // ============================================
+        function renderChapter(classData, glosario, preguntas) {
+            const name = classData.name || 'Capítulo sin título';
+
+            let html = `
+                <h2 class="chapter-title">${name}</h2>
+                <div class="chapter-subtitle">👦 ${nombreUsuario} - Responde y verifica</div>
+            `;
+
+            if (preguntas.length === 0) {
+                html += `<div style="background:#fef3c7;padding:16px;border-radius:12px;">⚠️ No hay preguntas.</div>`;
+            } else {
+                preguntas.forEach((pregunta, index) => {
+                    const isMultiple = pregunta.tipo === 'multiple';
+                    const isFalsoVerdadero = pregunta.tipo === 'falso_verdadero';
+                    const inputType = isMultiple ? 'checkbox' : 'radio';
+                    const inputName = 'q' + index;
+
+                    const saved = respuestas[currentChapter]?.[index];
+                    const isLocked = saved !== undefined;
+
+                    html += `
+                        <div class="question-block" data-index="${index}" data-capitulo="${currentChapter}">
+                            <div class="question-text">${index + 1}. ${pregunta.pregunta}</div>
+                            <div class="options">
+                    `;
+
+                    const opciones = pregunta.opciones || [];
+                    opciones.forEach((opcion, optIndex) => {
+                        let letter = String.fromCharCode(65 + optIndex);
+                        let value = letter;
+                        let cleanOption = opcion;
+
+                        if (isFalsoVerdadero) {
+                            value = opcion;
+                        } else {
+                            if (opcion.match(/^[A-D]\)\s*/)) {
+                                cleanOption = opcion.substring(3);
+                            } else if (opcion.match(/^[A-D]\.\s*/)) {
+                                cleanOption = opcion.substring(3);
+                            }
+                        }
+
+                        const checked = (saved && saved === value) ? 'checked' : '';
+
+                        html += `
+                            <label class="option-label">
+                                <input type="${inputType}" name="${inputName}" value="${value}" ${checked} ${isLocked ? 'disabled' : ''} />
+                                ${isFalsoVerdadero ? '' : letter + ') '}${cleanOption}
+                            </label>
+                        `;
+                    });
+
+                    const btnStyle = isLocked ? 'display:none;' : '';
+
+                    html += `
+                            </div>
+                            <button class="btn-validate" data-index="${index}" style="${btnStyle}" ${isLocked ? 'disabled' : ''}>Verificar</button>
+                            <div class="feedback" id="feedback-${currentChapter}-${index}"></div>
+                        </div>
+                    `;
+                });
+            }
+
+            if (glosario && glosario.length > 0) {
+                html += `
+                    <div class="glosario-section">
+                        <h3>📚 Glosario</h3>
+                        ${glosario.map(item => `
+                            <div class="glosario-item">
+                                <span class="termino">${item.termino}</span>
+                                <span class="definicion">${item.definicion}</span>
+                                <span class="grupo">${item.grupo || ''}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                `;
+            }
+
+            html += `
+                <div class="btn-unlock-all-container">
+                    <button class="btn-unlock-all" onclick="desbloquearTodas()">🔓 Desbloquear todas las respuestas</button>
+                </div>
+            `;
+
+            content.innerHTML = html;
+
+            document.querySelectorAll('.btn-validate').forEach(btn => {
+                btn.addEventListener('click', handleValidate);
+            });
+
+            // Restaurar respuestas guardadas
+            document.querySelectorAll('.question-block').forEach(block => {
+                const idx = parseInt(block.dataset.index);
+                const cap = parseInt(block.dataset.capitulo);
+                const saved = respuestas[cap]?.[idx];
+                if (saved !== undefined) {
+                    bloquearPregunta(block);
+                }
+            });
+
+            actualizarBotonEnviar();
+        }
+
+        // ============================================
+        // VERIFICAR RESPUESTA
+        // ============================================
+        function handleValidate(e) {
+            const btn = e.target;
+            const index = parseInt(btn.dataset.index);
+            const block = btn.closest('.question-block');
+            const cap = parseInt(block.dataset.capitulo);
+
+            if (!chapterData) return;
+            if (block.classList.contains('locked')) return;
+
+            const classData = chapterData.subjects[0].classes[0];
+            const preguntas = classData.data.cuestionario_items || [];
+
+            if (index >= preguntas.length) return;
+
+            const pregunta = preguntas[index];
+            const feedback = document.getElementById(`feedback-${cap}-${index}`);
+            if (!feedback) return;
+
+            const selectedInputs = block.querySelectorAll('input:checked');
+            const selectedValues = Array.from(selectedInputs).map(input => input.value);
+
+            if (selectedValues.length === 0) {
+                feedback.innerHTML = `
+                    <div class="feedback incorrect" style="display:block;">
+                        ⚠️ Selecciona una opción antes de verificar.
+                    </div>
+                `;
+                feedback.style.display = 'block';
+                return;
+            }
+
+            let isCorrect = false;
+            let correctAnswerText = '';
+            let userAnswer = '';
+
+            if (pregunta.tipo === 'falso_verdadero') {
+                const correct = pregunta.respuesta_correcta;
+                userAnswer = selectedValues[0];
+                isCorrect = selectedValues.length === 1 && selectedValues[0] === correct;
+                correctAnswerText = correct;
+            } else if (pregunta.tipo === 'seleccion') {
+                const correct = pregunta.respuesta_correcta.charAt(0);
+                userAnswer = selectedValues[0];
+                isCorrect = selectedValues.length === 1 && selectedValues[0] === correct;
+                const correctOption = pregunta.opciones.find(opt => opt.startsWith(correct + ')') || opt.startsWith(correct + '.'));
+                correctAnswerText = correctOption || pregunta.respuesta_correcta;
+            } else if (pregunta.tipo === 'multiple') {
+                const corrects = pregunta.respuestas_correctas.map(r => r.charAt(0));
+                userAnswer = selectedValues.join(', ');
+                isCorrect = selectedValues.length === corrects.length && selectedValues.every(v => corrects.includes(v));
+                const correctOptions = corrects.map(c => {
+                    const opt = pregunta.opciones.find(o => o.startsWith(c + ')') || o.startsWith(c + '.'));
+                    return opt || c;
+                });
+                correctAnswerText = correctOptions.join(', ');
+            }
+
+            const explicacion = pregunta.cascarita || pregunta.justificacion || 'Sin explicación adicional.';
+
+            if (!respuestas[cap]) respuestas[cap] = {};
+            if (!detallesRespuestas[cap]) detallesRespuestas[cap] = {};
+            
+            respuestas[cap][index] = userAnswer;
+            detallesRespuestas[cap][index] = {
+                pregunta: pregunta.pregunta,
+                respuesta: userAnswer,
+                correcta: correctAnswerText,
+                esCorrecto: isCorrect,
+                explicacion: explicacion
+            };
+            respondidas++;
+
+            let feedbackHtml = '';
+            if (isCorrect) {
+                feedbackHtml = `
+                    <div class="feedback correct" style="display:block;">
+                        ✅ ¡Correcto!
+                        <div class="cascarita">💡 ${explicacion}</div>
+                    </div>
+                `;
+                block.classList.add('answered-correct');
+                block.querySelectorAll('.option-label').forEach(label => {
+                    const input = label.querySelector('input');
+                    if (input && input.checked) {
+                        label.classList.add('selected-correct');
+                    }
+                });
+            } else {
+                feedbackHtml = `
+                    <div class="feedback incorrect" style="display:block;">
+                        ❌ Incorrecto. Correcta: <strong>${correctAnswerText}</strong>
+                        <div class="cascarita">💡 ${explicacion}</div>
+                    </div>
+                `;
+                block.classList.add('answered-incorrect');
+                block.querySelectorAll('.option-label').forEach(label => {
+                    const input = label.querySelector('input');
+                    if (input && input.checked) {
+                        label.classList.add('selected-incorrect');
+                    }
+                    if (pregunta.tipo === 'falso_verdadero' || pregunta.tipo === 'seleccion') {
+                        let correctValue = pregunta.respuesta_correcta;
+                        if (pregunta.tipo === 'seleccion') {
+                            correctValue = pregunta.respuesta_correcta.charAt(0);
+                        }
+                        if (input && input.value === correctValue) {
+                            label.classList.add('correct-answer');
+                        }
+                    }
+                });
+            }
+
+            feedback.innerHTML = feedbackHtml;
+            feedback.style.display = 'block';
+
+            bloquearPregunta(block);
+            actualizarBotonEnviar();
+        }
+
+        // ============================================
+        // BLOQUEAR / DESBLOQUEAR
+        // ============================================
+        function bloquearPregunta(block) {
+            if (block.classList.contains('locked')) return;
+            block.classList.add('locked');
+            block.querySelectorAll('input[type="radio"], input[type="checkbox"]').forEach(input => {
+                input.disabled = true;
+            });
+            const btn = block.querySelector('.btn-validate');
+            if (btn) btn.style.display = 'none';
+        }
+
+        function desbloquearPregunta(block) {
+            block.classList.remove('locked', 'answered-correct', 'answered-incorrect');
+            block.querySelectorAll('input[type="radio"], input[type="checkbox"]').forEach(input => {
+                input.disabled = false;
+            });
+            block.querySelectorAll('.option-label').forEach(label => {
+                label.classList.remove('selected-correct', 'selected-incorrect', 'correct-answer');
+            });
+            const btn = block.querySelector('.btn-validate');
+            if (btn) btn.style.display = 'inline-block';
+            const feedback = block.querySelector('.feedback');
+            if (feedback) {
+                feedback.innerHTML = '';
+                feedback.style.display = 'none';
+                feedback.className = 'feedback';
+            }
+        }
+
+        function desbloquearTodas() {
+            document.querySelectorAll('.question-block').forEach(block => {
+                const cap = parseInt(block.dataset.capitulo);
+                const idx = parseInt(block.dataset.index);
+                if (respuestas[cap]) delete respuestas[cap][idx];
+                if (detallesRespuestas[cap]) delete detallesRespuestas[cap][idx];
+                desbloquearPregunta(block);
+            });
+            respondidas = 0;
+            actualizarBotonEnviar();
+        }
+
+        // ============================================
+        // ACTUALIZAR BOTÓN ENVIAR
+        // ============================================
+        function actualizarBotonEnviar() {
+            const total = totalPreguntas;
+            const respondidasCount = Object.values(respuestas).reduce((sum, cap) => {
+                return sum + Object.keys(cap).filter(k => k !== 'undefined').length;
+            }, 0);
+            btnEnviar.disabled = respondidasCount < total || total === 0;
+            btnEnviar.textContent = respondidasCount > 0 ? 
+                `📤 Enviar respuestas (${respondidasCount}/${total})` : 
+                '📤 Enviar respuestas';
+        }
+
+        // ============================================
+        // ENVIAR RESPUESTAS POR WHATSAPP
+        // ============================================
+        btnEnviar.addEventListener('click', function() {
+            if (btnEnviar.disabled) return;
+
+            let mensaje = `📊 *EVALUACIÓN - EL REY QUE NO PODÍA PREDICAR*\n\n`;
+            mensaje += `👦 *Nombre:* ${nombreUsuario}\n`;
+            mensaje += `📅 *Fecha:* ${new Date().toLocaleDateString()}\n`;
+            mensaje += `⏰ *Hora:* ${new Date().toLocaleTimeString()}\n\n`;
+            mensaje += `━━━━━━━━━━━━━━━━━━━━━━\n\n`;
+
+            let total = 0;
+            let correctas = 0;
+
+            const capitulos = Object.keys(detallesRespuestas).filter(k => k !== 'undefined').sort((a, b) => parseInt(a) - parseInt(b));
+
+            capitulos.forEach(cap => {
+                mensaje += `📖 *CAPÍTULO ${cap}*\n`;
+                mensaje += `─ ─ ─ ─ ─ ─ ─ ─ ─ ─\n`;
+
+                const items = Object.keys(detallesRespuestas[cap]).sort((a, b) => parseInt(a) - parseInt(b));
+                items.forEach(idx => {
+                    const detalle = detallesRespuestas[cap][idx];
+                    if (!detalle) return;
+
+                    total++;
+                    if (detalle.esCorrecto) correctas++;
+
+                    const emoji = detalle.esCorrecto ? '✅' : '❌';
+                    const estado = detalle.esCorrecto ? 'CORRECTO' : 'INCORRECTO';
+                    mensaje += `${emoji} ${parseInt(idx)+1}. ${detalle.respuesta} → ${estado}\n`;
+                });
+                mensaje += `\n`;
+            });
+
+            mensaje += `━━━━━━━━━━━━━━━━━━━━━━\n\n`;
+            mensaje += `📊 *RESULTADO FINAL*\n`;
+            mensaje += `✅ *Correctas:* ${correctas}\n`;
+            mensaje += `❌ *Incorrectas:* ${total - correctas}\n`;
+            mensaje += `🎯 *Puntaje:* ${Math.round((correctas/total)*100)}%\n`;
+
+            const url = `https://wa.me/?text=${encodeURIComponent(mensaje)}`;
+            window.open(url, '_blank');
+
+            let detalleHtml = '';
+            capitulos.forEach(cap => {
+                detalleHtml += `<p style="font-weight:bold;margin-top:8px;">📖 Capítulo ${cap}</p>`;
+                const items = Object.keys(detallesRespuestas[cap]).sort((a, b) => parseInt(a) - parseInt(b));
+                items.forEach(idx => {
+                    const detalle = detallesRespuestas[cap][idx];
+                    if (!detalle) return;
+                    const clase = detalle.esCorrecto ? 'correcto' : 'incorrecto';
+                    detalleHtml += `
+                        <div class="item">
+                            <span class="${clase}">${detalle.esCorrecto ? '✅' : '❌'}</span>
+                            ${parseInt(idx)+1}. ${detalle.respuesta} 
+                            <span style="font-size:0.8rem;color:#6b5b4e;">→ ${detalle.esCorrecto ? 'Correcto' : 'Incorrecto'}</span>
+                        </div>
+                    `;
+                });
+            });
+
+            content.innerHTML += `
+                <div class="resultado-final">
+                    <h3>📊 Resultado de ${nombreUsuario}</h3>
+                    <div class="puntaje">${Math.round((correctas/total)*100)}%</div>
+                    <p>✅ ${correctas} correctas de ${total} preguntas</p>
+                    <div class="detalle">
+                        ${detalleHtml}
+                    </div>
+                    <p style="font-size:0.9rem;color:#6b5b4e;margin-top:12px;">
+                        📤 El resultado se ha enviado a WhatsApp
+                    </p>
+                </div>
+            `;
+
+            btnEnviar.disabled = true;
+            btnEnviar.textContent = '✅ Enviado';
+        });
+
+        // ============================================
+        // NOMBRE
+        // ============================================
+        nombreInput.addEventListener('input', function() {
+            btnIniciar.disabled = this.value.trim().length < 2;
+        });
+
+        btnIniciar.addEventListener('click', function() {
+            nombreUsuario = nombreInput.value.trim();
+            if (nombreUsuario.length < 2) {
+                alert('Por favor, escribe tu nombre completo.');
+                return;
+            }
+            nombreSection.style.display = 'none';
+            estudioSection.classList.add('visible');
+            nombreUsuarioDisplay.textContent = '👦 ' + nombreUsuario;
+            loadChapter(1);
+        });
+
+        // ============================================
+        // NAVEGACIÓN
+        // ============================================
+        function updateActiveButton(num) {
+            document.querySelectorAll('.chapter-nav button').forEach(btn => {
+                btn.classList.toggle('active', parseInt(btn.dataset.chapter) === num);
+            });
+        }
+
+        chapterNav.addEventListener('click', function(e) {
+            const btn = e.target.closest('button');
+            if (!btn) return;
+            const chapter = parseInt(btn.dataset.chapter);
+            if (!isNaN(chapter)) loadChapter(chapter);
+        });
+
+        // ============================================
+        // EXPONER FUNCIONES GLOBALES
+        // ============================================
+        window.desbloquearTodas = desbloquearTodas;
+        window.loadChapter = loadChapter;
+    </script>
+</body>
+</html>
